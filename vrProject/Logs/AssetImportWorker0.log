@@ -18,65 +18,65 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/admin/Desktop/vrProject/vrProject/vrProject
+/Users/admin/Desktop/vrProject/VR/vrProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51683
-Successfully changed project path to: /Users/admin/Desktop/vrProject/vrProject/vrProject
-/Users/admin/Desktop/vrProject/vrProject/vrProject
+54792
+Successfully changed project path to: /Users/admin/Desktop/vrProject/VR/vrProject
+/Users/admin/Desktop/vrProject/VR/vrProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 122.23 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 3.54 ms.
+Refreshing native plugins compatible for Editor in 181.52 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 7.66 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/admin/Desktop/vrProject/vrProject/vrProject/Assets
+[Subsystems] Discovering subsystems at path /Users/admin/Desktop/vrProject/VR/vrProject/Assets
 GfxDevice: creating device client; threaded=0
 Renderer: ATI Radeon HD 4850 OpenGL Engine
 Vendor:   ATI Technologies Inc.
 Version:  3.3 ATI-10.4.14
 GLES:     0
  GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shading_language_include GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable GL_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
-OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle -436154368
+OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle 1703109120
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56026
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001079 seconds.
+Registered in 0.001123 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 116.80 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
+Refreshing native plugins compatible for Editor in 125.97 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.80 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
+- Completed reload, in  1.140 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1106ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (1140ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (903ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (920ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (402ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (407ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
+				RefreshPlugins (127ms)
 				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadAttributes (177ms)
 				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -84,45 +84,45 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003455 seconds.
+Registered in 0.005757 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 115.85 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
+Refreshing native plugins compatible for Editor in 125.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.67 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.261 seconds
+- Completed reload, in  2.383 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2262ms)
-		BeginReloadAssembly (263ms)
+	ReloadAssembly (2394ms)
+		BeginReloadAssembly (267ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1890ms)
-			LoadAssemblies (135ms)
+		EndReloadAssembly (2023ms)
+			LoadAssemblies (230ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (661ms)
+			SetupTypeCache (651ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (115ms)
-			SetupLoadedEditorAssemblies (753ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (784ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (117ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (440ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (453ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.003584 seconds.
+Validating Project structure ... 0.007243 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.004468 seconds.
+Upgrading shader files ...0.007935 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -132,18 +132,2086 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+-------- Shader Sprites/Default compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 _RendererColor;
+uniform 	vec2 _Flip;
+uniform 	vec4 _Color;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+in  vec4 in_COLOR0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_COLOR0;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+vec4 u_xlat0;
+vec4 u_xlat1;
+uint u_xlatu1;
+vec4 u_xlat2;
+int u_xlati4;
+void main()
+{
+    u_xlat0.xy = in_POSITION0.xy * _Flip.xy;
+    u_xlat1 = u_xlat0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * u_xlat0.xxxx + u_xlat1;
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;
+    u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlatu1 = uint(gl_InstanceID) & 1u;
+    u_xlati4 = int(u_xlatu1) << 2;
+    u_xlat2 = u_xlat0.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati4] * u_xlat0.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 2)] * u_xlat0.zzzz + u_xlat2;
+    gl_Position = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 3)] * u_xlat0.wwww + u_xlat2;
+    u_xlat0 = in_COLOR0 * _Color;
+    vs_COLOR0 = u_xlat0 * _RendererColor;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    vs_BLENDINDICES0 = u_xlatu1;
+    gl_Layer = int(u_xlatu1);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Sprites/Default:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Sprites/Default' failed.
+-------- Shader Skybox/Procedural compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _WorldSpaceLightPos0;
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 _LightColor0;
+uniform 	float _Exposure;
+uniform 	vec3 _GroundColor;
+uniform 	vec3 _SkyTint;
+uniform 	float _AtmosphereThickness;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+out vec3 vs_TEXCOORD0;
+out vec3 vs_TEXCOORD1;
+out vec3 vs_TEXCOORD2;
+out vec3 vs_TEXCOORD3;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+bool u_xlatb1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec3 u_xlat4;
+vec4 u_xlat5;
+vec3 u_xlat6;
+vec3 u_xlat7;
+int u_xlati7;
+float u_xlat8;
+vec3 u_xlat9;
+float u_xlat15;
+vec2 u_xlat16;
+float u_xlat22;
+float u_xlat23;
+float u_xlat24;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlati7 = int(u_xlatu0) << 2;
+    u_xlat1 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat1 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat1;
+    u_xlat1 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat1;
+    u_xlat2 = u_xlat1 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlat3 = u_xlat2.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 1)];
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati7] * u_xlat2.xxxx + u_xlat3;
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 2)] * u_xlat2.zzzz + u_xlat3;
+    gl_Position = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 3)] * u_xlat2.wwww + u_xlat3;
+    u_xlat2 = log2(vec4(_SkyTint.x, _SkyTint.y, _SkyTint.z, _AtmosphereThickness));
+    u_xlat2 = u_xlat2 * vec4(0.454545468, 0.454545468, 0.454545468, 2.5);
+    u_xlat2 = exp2(u_xlat2);
+    u_xlat7.xyz = (-u_xlat2.xyz) + vec3(1.0, 1.0, 1.0);
+    u_xlat7.xyz = u_xlat7.xyz * vec3(0.300000012, 0.300000042, 0.300000012) + vec3(0.5, 0.419999987, 0.324999988);
+    u_xlat7.xyz = u_xlat7.xyz * u_xlat7.xyz;
+    u_xlat7.xyz = u_xlat7.xyz * u_xlat7.xyz;
+    u_xlat7.xyz = vec3(1.0, 1.0, 1.0) / u_xlat7.xyz;
+    u_xlat2.xy = u_xlat2.ww * vec2(0.049999997, 0.0314159282);
+    u_xlat22 = dot(u_xlat1.xyz, u_xlat1.xyz);
+    u_xlat22 = inversesqrt(u_xlat22);
+    u_xlat3.xyz = vec3(u_xlat22) * u_xlat1.xyz;
+    u_xlatb1 = u_xlat3.y>=0.0;
+    if(u_xlatb1){
+        u_xlat1.x = u_xlat3.y * u_xlat3.y + 0.0506249666;
+        u_xlat1.x = sqrt(u_xlat1.x);
+        u_xlat1.x = (-u_xlat1.y) * u_xlat22 + u_xlat1.x;
+        u_xlat8 = (-u_xlat3.y) * 1.0 + 1.0;
+        u_xlat15 = u_xlat8 * 5.25 + -6.80000019;
+        u_xlat15 = u_xlat8 * u_xlat15 + 3.82999992;
+        u_xlat15 = u_xlat8 * u_xlat15 + 0.458999991;
+        u_xlat8 = u_xlat8 * u_xlat15 + -0.00286999997;
+        u_xlat8 = u_xlat8 * 1.44269502;
+        u_xlat1.y = exp2(u_xlat8);
+        u_xlat1.xyz = u_xlat1.xyx * vec3(0.5, 0.246031836, 20.0);
+        u_xlat4.xyz = u_xlat1.xxx * u_xlat3.xyz;
+        u_xlat4.xyz = u_xlat4.xyz * vec3(0.5, 0.5, 0.5) + vec3(0.0, 1.00010002, 0.0);
+        u_xlat22 = dot(u_xlat4.xyz, u_xlat4.xyz);
+        u_xlat22 = sqrt(u_xlat22);
+        u_xlat16.x = (-u_xlat22) + 1.0;
+        u_xlat16.x = u_xlat16.x * 230.831207;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat23 = dot(_WorldSpaceLightPos0.xyz, u_xlat4.xyz);
+        u_xlat23 = u_xlat23 / u_xlat22;
+        u_xlat24 = dot(u_xlat3.xyz, u_xlat4.xyz);
+        u_xlat22 = u_xlat24 / u_xlat22;
+        u_xlat23 = (-u_xlat23) + 1.0;
+        u_xlat24 = u_xlat23 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat23 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat23 * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat23 * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat22 = (-u_xlat22) + 1.0;
+        u_xlat24 = u_xlat22 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat22 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat22 * u_xlat24 + 0.458999991;
+        u_xlat22 = u_xlat22 * u_xlat24 + -0.00286999997;
+        u_xlat22 = u_xlat22 * 1.44269502;
+        u_xlat22 = exp2(u_xlat22);
+        u_xlat22 = u_xlat22 * 0.25;
+        u_xlat22 = u_xlat23 * 0.25 + (-u_xlat22);
+        u_xlat22 = u_xlat16.x * u_xlat22 + u_xlat1.y;
+        u_xlat22 = max(u_xlat22, 0.0);
+        u_xlat22 = min(u_xlat22, 50.0);
+        u_xlat5.xyz = u_xlat7.xyz * u_xlat2.yyy + vec3(0.0125663709, 0.0125663709, 0.0125663709);
+        u_xlat6.xyz = (-vec3(u_xlat22)) * u_xlat5.xyz;
+        u_xlat6.xyz = u_xlat6.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat6.xyz = exp2(u_xlat6.xyz);
+        u_xlat22 = u_xlat1.z * u_xlat16.x;
+        u_xlat4.xyz = u_xlat3.xyz * u_xlat1.xxx + u_xlat4.xyz;
+        u_xlat1.x = dot(u_xlat4.xyz, u_xlat4.xyz);
+        u_xlat1.x = sqrt(u_xlat1.x);
+        u_xlat16.x = (-u_xlat1.x) + 1.0;
+        u_xlat16.x = u_xlat16.x * 230.831207;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat23 = dot(_WorldSpaceLightPos0.xyz, u_xlat4.xyz);
+        u_xlat23 = u_xlat23 / u_xlat1.x;
+        u_xlat24 = dot(u_xlat3.xyz, u_xlat4.xyz);
+        u_xlat1.x = u_xlat24 / u_xlat1.x;
+        u_xlat23 = (-u_xlat23) + 1.0;
+        u_xlat24 = u_xlat23 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat23 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat23 * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat23 * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat1.x = (-u_xlat1.x) + 1.0;
+        u_xlat24 = u_xlat1.x * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat1.x * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat1.x * u_xlat24 + 0.458999991;
+        u_xlat1.x = u_xlat1.x * u_xlat24 + -0.00286999997;
+        u_xlat1.x = u_xlat1.x * 1.44269502;
+        u_xlat1.x = exp2(u_xlat1.x);
+        u_xlat1.x = u_xlat1.x * 0.25;
+        u_xlat1.x = u_xlat23 * 0.25 + (-u_xlat1.x);
+        u_xlat1.x = u_xlat16.x * u_xlat1.x + u_xlat1.y;
+        u_xlat1.x = max(u_xlat1.x, 0.0);
+        u_xlat1.x = min(u_xlat1.x, 50.0);
+        u_xlat4.xyz = u_xlat5.xyz * (-u_xlat1.xxx);
+        u_xlat4.xyz = u_xlat4.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat4.xyz = exp2(u_xlat4.xyz);
+        u_xlat1.x = u_xlat1.z * u_xlat16.x;
+        u_xlat1.xyz = u_xlat1.xxx * u_xlat4.xyz;
+        u_xlat1.xyz = u_xlat6.xyz * vec3(u_xlat22) + u_xlat1.xyz;
+        u_xlat4.xyz = u_xlat7.xyz * u_xlat2.xxx;
+        u_xlat4.xyz = u_xlat1.xyz * u_xlat4.xyz;
+        u_xlat1.xyz = u_xlat1.xyz * vec3(0.0199999996, 0.0199999996, 0.0199999996);
+    } else {
+        u_xlat22 = min(u_xlat3.y, -0.00100000005);
+        u_xlat22 = -9.99999975e-05 / u_xlat22;
+        u_xlat5.xyz = vec3(u_xlat22) * u_xlat3.xyz + vec3(0.0, 1.00010002, 0.0);
+        u_xlat16.x = dot((-u_xlat3.xyz), u_xlat5.xyz);
+        u_xlat16.y = dot(_WorldSpaceLightPos0.xyz, u_xlat5.xyz);
+        u_xlat16.xy = (-u_xlat16.xy) + vec2(1.0, 1.0);
+        u_xlat24 = u_xlat16.x * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat16.x * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat16.x * u_xlat24 + 0.458999991;
+        u_xlat16.x = u_xlat16.x * u_xlat24 + -0.00286999997;
+        u_xlat16.x = u_xlat16.x * 1.44269502;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat24 = u_xlat16.y * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat16.y * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat16.y * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat16.y * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat5.xy = u_xlat16.xx * vec2(0.25, 0.249900013);
+        u_xlat16.x = u_xlat23 * 0.25 + u_xlat5.x;
+        u_xlat5.xz = vec2(u_xlat22) * vec2(0.5, 20.0);
+        u_xlat6.xyz = u_xlat3.xyz * u_xlat5.xxx;
+        u_xlat6.xyz = u_xlat6.xyz * vec3(0.5, 0.5, 0.5) + vec3(0.0, 1.00010002, 0.0);
+        u_xlat22 = dot(u_xlat6.xyz, u_xlat6.xyz);
+        u_xlat22 = sqrt(u_xlat22);
+        u_xlat22 = (-u_xlat22) + 1.0;
+        u_xlat22 = u_xlat22 * 230.831207;
+        u_xlat22 = exp2(u_xlat22);
+        u_xlat16.x = u_xlat22 * u_xlat16.x + (-u_xlat5.y);
+        u_xlat16.x = max(u_xlat16.x, 0.0);
+        u_xlat16.x = min(u_xlat16.x, 50.0);
+        u_xlat5.xyw = u_xlat7.xyz * u_xlat2.yyy + vec3(0.0125663709, 0.0125663709, 0.0125663709);
+        u_xlat9.xyz = (-u_xlat16.xxx) * u_xlat5.xyw;
+        u_xlat9.xyz = u_xlat9.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat1.xyz = exp2(u_xlat9.xyz);
+        u_xlat22 = u_xlat5.z * u_xlat22;
+        u_xlat9.xyz = vec3(u_xlat22) * u_xlat1.xyz;
+        u_xlat7.xyz = u_xlat7.xyz * u_xlat2.xxx + vec3(0.0199999996, 0.0199999996, 0.0199999996);
+        u_xlat4.xyz = u_xlat7.xyz * u_xlat9.xyz;
+    }
+    u_xlat7.xyz = vec3(_GroundColor.x, _GroundColor.y, _GroundColor.z) * u_xlat1.xyz + u_xlat4.xyz;
+    vs_TEXCOORD1.xyz = u_xlat7.xyz * vec3(_Exposure);
+    u_xlat7.x = dot(_WorldSpaceLightPos0.xyz, (-u_xlat3.xyz));
+    u_xlat7.x = u_xlat7.x * u_xlat7.x;
+    u_xlat7.x = u_xlat7.x * 0.75 + 0.75;
+    u_xlat7.xyz = u_xlat7.xxx * u_xlat4.xyz;
+    vs_TEXCOORD2.xyz = u_xlat7.xyz * vec3(_Exposure);
+    u_xlat7.x = dot(_LightColor0.xyz, _LightColor0.xyz);
+    u_xlat7.x = sqrt(u_xlat7.x);
+    u_xlat7.x = max(u_xlat7.x, 0.25);
+    u_xlat7.x = min(u_xlat7.x, 1.0);
+    u_xlat1.xyz = u_xlat1.xyz * vec3(8000.0, 8000.0, 8000.0);
+    u_xlat1.xyz = clamp(u_xlat1.xyz, 0.0, 1.0);
+    u_xlat1.xyz = u_xlat1.xyz * _LightColor0.xyz;
+    u_xlat1.xyz = u_xlat1.xyz * vec3(27.0, 27.0, 27.0);
+    vs_TEXCOORD3.xyz = u_xlat1.xyz / u_xlat7.xxx;
+    vs_TEXCOORD0.xyz = (-u_xlat3.xyz);
+    vs_BLENDINDICES0 = u_xlatu0;
+    gl_Layer = int(u_xlatu0);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Skybox/Procedural:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Skybox/Procedural' failed.
+-------- Shader Legacy Shaders/Particles/Additive compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 unity_FogParams;
+uniform 	vec4 _MainTex_ST;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+in  vec4 in_COLOR0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_COLOR0;
+out vec2 vs_TEXCOORD0;
+out float vs_TEXCOORD1;
+flat out uint vs_BLENDINDICES0;
+vec4 u_xlat0;
+uint u_xlatu1;
+vec4 u_xlat2;
+int u_xlati4;
+void main()
+{
+    u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;
+    u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlatu1 = uint(gl_InstanceID) & 1u;
+    u_xlati4 = int(u_xlatu1) << 2;
+    u_xlat2 = u_xlat0.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati4] * u_xlat0.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 2)] * u_xlat0.zzzz + u_xlat2;
+    u_xlat0 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 3)] * u_xlat0.wwww + u_xlat2;
+    gl_Position = u_xlat0;
+    u_xlat0.x = u_xlat0.z * unity_FogParams.x;
+    u_xlat0.x = u_xlat0.x * (-u_xlat0.x);
+    vs_TEXCOORD1 = exp2(u_xlat0.x);
+    vs_COLOR0 = in_COLOR0;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;
+    vs_BLENDINDICES0 = u_xlatu1;
+    gl_Layer = int(u_xlatu1);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Legacy Shaders/Particles/Additive:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Legacy Shaders/Particles/Additive' failed.
+-------- Shader Hidden/Universal Render Pipeline/Blit compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _ScaleBias;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+int u_xlati0;
+uvec2 u_xlatu0;
+vec3 u_xlat1;
+int u_xlati4;
+void main()
+{
+    u_xlati0 = int(uint(gl_VertexID) & 1u);
+    u_xlatu0.y = uint(gl_VertexID) >> 1u;
+    u_xlati4 = (-u_xlati0) + (-int(u_xlatu0.y));
+    u_xlati0 = u_xlati0 + int(u_xlatu0.y);
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.xz = vec2(u_xlatu0.yx);
+    vs_TEXCOORD0.xy = u_xlat1.xz * _ScaleBias.xy + _ScaleBias.zw;
+    u_xlati0 = u_xlati4 + 1;
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.y = float(u_xlatu0.x);
+    gl_Position.xy = u_xlat1.xy * vec2(2.0, -2.0) + vec2(-1.0, 1.0);
+    gl_Position.zw = vec2(-1.0, 1.0);
+    u_xlatu0.x = uint(gl_InstanceID) & 1u;
+    gl_Layer = int(u_xlatu0.x);
+    vs_BLENDINDICES0 = u_xlatu0.x;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/Blit:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/Blit' failed.
+-------- Shader Hidden/Universal Render Pipeline/CopyDepth compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _ScaleBiasRt;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+vec2 u_xlat0;
+int u_xlati0;
+uvec2 u_xlatu0;
+vec3 u_xlat1;
+int u_xlati4;
+void main()
+{
+    u_xlati0 = int(uint(gl_VertexID) & 1u);
+    u_xlatu0.y = uint(gl_VertexID) >> 1u;
+    u_xlati4 = (-u_xlati0) + (-int(u_xlatu0.y));
+    u_xlati0 = u_xlati0 + int(u_xlatu0.y);
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.xz = vec2(u_xlatu0.yx);
+    vs_TEXCOORD0.xy = u_xlat1.xz;
+    u_xlati0 = u_xlati4 + 1;
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.y = float(u_xlatu0.x);
+    u_xlat0.xy = u_xlat1.xy * vec2(2.0, -2.0) + vec2(-1.0, 1.0);
+    gl_Position.y = u_xlat0.y * _ScaleBiasRt.x;
+    gl_Position.x = u_xlat0.x;
+    gl_Position.zw = vec2(-1.0, 1.0);
+    u_xlatu0.x = uint(gl_InstanceID) & 1u;
+    gl_Layer = int(u_xlatu0.x);
+    vs_BLENDINDICES0 = u_xlatu0.x;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/CopyDepth:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/CopyDepth' failed.
+-------- Shader Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 unity_FogParams;
+UNITY_BINDING(1) uniform UnityPerDraw {
+	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
+	vec4 unity_LODFade;
+	vec4 unity_WorldTransformParams;
+	vec4 unity_LightData;
+	vec4 unity_LightIndices[2];
+	vec4 unity_ProbesOcclusion;
+	vec4 unity_SpecCube0_HDR;
+	vec4 unity_LightmapST;
+	vec4 unity_DynamicLightmapST;
+	vec4 unity_SHAr;
+	vec4 unity_SHAg;
+	vec4 unity_SHAb;
+	vec4 unity_SHBr;
+	vec4 unity_SHBg;
+	vec4 unity_SHBb;
+	vec4 unity_SHC;
+};
+UNITY_BINDING(2) uniform UnityStereoViewBuffer {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+UNITY_BINDING(5) uniform TerrainGrass {
+	vec4 _WavingTint;
+	vec4 _WaveAndDistance;
+	vec4 _CameraPosition;
+	vec3 _CameraRight;
+	vec3 _CameraUp;
+};
+in  vec4 in_POSITION0;
+in  vec3 in_NORMAL0;
+in  vec4 in_COLOR0;
+in  vec2 in_TEXCOORD0;
+out vec2 vs_TEXCOORD0;
+out vec3 vs_TEXCOORD1;
+out vec4 vs_TEXCOORD2;
+out vec3 vs_TEXCOORD3;
+out vec3 vs_TEXCOORD4;
+out vec4 vs_TEXCOORD5;
+out vec4 vs_TEXCOORD7;
+flat out uint vs_SV_InstanceID0;
+flat out uint vs_BLENDINDICES0;
+vec4 u_xlat0;
+vec4 u_xlat1;
+vec4 u_xlat2;
+int u_xlati2;
+vec4 u_xlat3;
+vec3 u_xlat4;
+float u_xlat12;
+uint u_xlatu13;
+float u_xlat14;
+void main()
+{
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    u_xlat0.x = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[0].xyz);
+    u_xlat0.y = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[1].xyz);
+    u_xlat0.z = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[2].xyz);
+    u_xlat12 = dot(u_xlat0.xyz, u_xlat0.xyz);
+    u_xlat12 = max(u_xlat12, 1.17549435e-38);
+    u_xlat12 = inversesqrt(u_xlat12);
+    u_xlat0.xyz = vec3(u_xlat12) * u_xlat0.xyz;
+    u_xlat1.x = u_xlat0.y * u_xlat0.y;
+    u_xlat1.x = u_xlat0.x * u_xlat0.x + (-u_xlat1.x);
+    u_xlat2 = u_xlat0.yzzx * u_xlat0.xyzz;
+    u_xlat3.x = dot(unity_SHBr, u_xlat2);
+    u_xlat3.y = dot(unity_SHBg, u_xlat2);
+    u_xlat3.z = dot(unity_SHBb, u_xlat2);
+    u_xlat1.xyz = unity_SHC.xyz * u_xlat1.xxx + u_xlat3.xyz;
+    u_xlat0.w = 1.0;
+    u_xlat2.x = dot(unity_SHAr, u_xlat0);
+    u_xlat2.y = dot(unity_SHAg, u_xlat0);
+    u_xlat2.z = dot(unity_SHAb, u_xlat0);
+    vs_TEXCOORD3.xyz = u_xlat0.xyz;
+    u_xlat0.xyz = u_xlat1.xyz + u_xlat2.xyz;
+    vs_TEXCOORD1.xyz = max(u_xlat0.xyz, vec3(0.0, 0.0, 0.0));
+    u_xlat0 = _WaveAndDistance.yyyy * vec4(0.00600000005, 0.0199999996, 0.0199999996, 0.0500000007);
+    u_xlat0 = u_xlat0 * in_POSITION0.zzzz;
+    u_xlat1 = _WaveAndDistance.yyyy * vec4(0.0120000001, 0.0199999996, 0.0599999987, 0.0240000002);
+    u_xlat0 = in_POSITION0.xxxx * u_xlat1 + u_xlat0;
+    u_xlat0 = _WaveAndDistance.xxxx * vec4(1.20000005, 2.0, 1.60000002, 4.80000019) + u_xlat0;
+    u_xlat0 = fract(u_xlat0);
+    u_xlat0 = u_xlat0 * vec4(6.40884876, 6.40884876, 6.40884876, 6.40884876) + vec4(-3.14159274, -3.14159274, -3.14159274, -3.14159274);
+    u_xlat1 = u_xlat0 * u_xlat0;
+    u_xlat2 = u_xlat0 * u_xlat1;
+    u_xlat0 = u_xlat2 * vec4(-0.161616161, -0.161616161, -0.161616161, -0.161616161) + u_xlat0;
+    u_xlat2 = u_xlat1 * u_xlat2;
+    u_xlat1 = u_xlat1 * u_xlat2;
+    u_xlat0 = u_xlat2 * vec4(0.00833330024, 0.00833330024, 0.00833330024, 0.00833330024) + u_xlat0;
+    u_xlat0 = u_xlat1 * vec4(-0.000198409994, -0.000198409994, -0.000198409994, -0.000198409994) + u_xlat0;
+    u_xlat0 = u_xlat0 * u_xlat0;
+    u_xlat0 = u_xlat0 * u_xlat0;
+    u_xlat1.x = in_COLOR0.w * _WaveAndDistance.z;
+    u_xlat1 = u_xlat0 * u_xlat1.xxxx;
+    u_xlat0.x = dot(u_xlat0, vec4(0.674199879, 0.674199879, 0.269679934, 0.134839967));
+    u_xlat0.x = u_xlat0.x * 0.699999988;
+    u_xlat2.x = dot(u_xlat1, vec4(0.0240000002, 0.0399999991, -0.119999997, 0.0960000008));
+    u_xlat2.z = dot(u_xlat1, vec4(0.00600000005, 0.0199999996, -0.0199999996, 0.100000001));
+    u_xlat1.xz = (-u_xlat2.xz) * _WaveAndDistance.zz + in_POSITION0.xz;
+    u_xlat4.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat4.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat1.xxx + u_xlat4.xyz;
+    u_xlat4.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * u_xlat1.zzz + u_xlat4.xyz;
+    u_xlat4.xyz = u_xlat4.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    vs_TEXCOORD2.xyz = u_xlat4.xyz;
+    vs_TEXCOORD2.w = 32.0;
+    u_xlatu13 = uint(gl_InstanceID) & 1u;
+    u_xlat2.xyz = (-u_xlat4.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu13)].xyz;
+    u_xlat14 = dot(u_xlat2.xyz, u_xlat2.xyz);
+    u_xlat14 = max(u_xlat14, 1.17549435e-38);
+    u_xlat14 = inversesqrt(u_xlat14);
+    vs_TEXCOORD4.xyz = vec3(u_xlat14) * u_xlat2.xyz;
+    u_xlati2 = int(u_xlatu13) << 2;
+    u_xlat3 = u_xlat4.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati2 + 1)];
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati2] * u_xlat4.xxxx + u_xlat3;
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati2 + 2)] * u_xlat4.zzzz + u_xlat3;
+    u_xlat2 = u_xlat3 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati2 + 3)];
+    vs_TEXCOORD5.x = u_xlat2.z * unity_FogParams.x;
+    gl_Position = u_xlat2;
+    vs_TEXCOORD5.yzw = vec3(0.0, 0.0, 0.0);
+    u_xlat1.y = in_POSITION0.y;
+    u_xlat4.xyz = u_xlat1.xyz + (-_CameraPosition.xyz);
+    u_xlat4.x = dot(u_xlat4.xyz, u_xlat4.xyz);
+    u_xlat4.x = (-u_xlat4.x) + _WaveAndDistance.w;
+    u_xlat4.x = u_xlat4.x + u_xlat4.x;
+    vs_TEXCOORD7.w = u_xlat4.x * _CameraPosition.w;
+    vs_TEXCOORD7.w = clamp(vs_TEXCOORD7.w, 0.0, 1.0);
+    u_xlat4.xyz = _WavingTint.xyz + vec3(-0.5, -0.5, -0.5);
+    u_xlat0.xyz = u_xlat0.xxx * u_xlat4.xyz + vec3(0.5, 0.5, 0.5);
+    u_xlat0.xyz = u_xlat0.xyz * in_COLOR0.xyz;
+    vs_TEXCOORD7.xyz = u_xlat0.xyz + u_xlat0.xyz;
+    vs_SV_InstanceID0 =  uint(gl_InstanceID);
+    gl_Layer = int(u_xlatu13);
+    vs_BLENDINDICES0 = u_xlatu13;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass' failed.
+-------- Shader Universal Render Pipeline/Terrain/Lit compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 unity_OrthoParams;
+uniform 	vec4 unity_FogParams;
+UNITY_BINDING(1) uniform UnityPerDraw {
+	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
+	vec4 unity_LODFade;
+	vec4 unity_WorldTransformParams;
+	vec4 unity_LightData;
+	vec4 unity_LightIndices[2];
+	vec4 unity_ProbesOcclusion;
+	vec4 unity_SpecCube0_HDR;
+	vec4 unity_LightmapST;
+	vec4 unity_DynamicLightmapST;
+	vec4 unity_SHAr;
+	vec4 unity_SHAg;
+	vec4 unity_SHAb;
+	vec4 unity_SHBr;
+	vec4 unity_SHBg;
+	vec4 unity_SHBb;
+	vec4 unity_SHC;
+};
+UNITY_BINDING(2) uniform UnityStereoViewBuffer {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+UNITY_BINDING(3) uniform _Terrain {
+	float _NormalScale0;
+	float _NormalScale1;
+	float _NormalScale2;
+	float _NormalScale3;
+	float _Metallic0;
+	float _Metallic1;
+	float _Metallic2;
+	float _Metallic3;
+	float _Smoothness0;
+	float _Smoothness1;
+	float _Smoothness2;
+	float _Smoothness3;
+	vec4 _DiffuseRemapScale0;
+	vec4 _DiffuseRemapScale1;
+	vec4 _DiffuseRemapScale2;
+	vec4 _DiffuseRemapScale3;
+	vec4 _MaskMapRemapOffset0;
+	vec4 _MaskMapRemapOffset1;
+	vec4 _MaskMapRemapOffset2;
+	vec4 _MaskMapRemapOffset3;
+	vec4 _MaskMapRemapScale0;
+	vec4 _MaskMapRemapScale1;
+	vec4 _MaskMapRemapScale2;
+	vec4 _MaskMapRemapScale3;
+	vec4 _Control_ST;
+	vec4 _Control_TexelSize;
+	float _DiffuseHasAlpha0;
+	float _DiffuseHasAlpha1;
+	float _DiffuseHasAlpha2;
+	float _DiffuseHasAlpha3;
+	float _LayerHasMask0;
+	float _LayerHasMask1;
+	float _LayerHasMask2;
+	float _LayerHasMask3;
+	vec4 _Splat0_ST;
+	vec4 _Splat1_ST;
+	vec4 _Splat2_ST;
+	vec4 _Splat3_ST;
+	float _HeightTransition;
+	float _NumLayersCount;
+};
+in  vec4 in_POSITION0;
+in  vec3 in_NORMAL0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_TEXCOORD0;
+out vec4 vs_TEXCOORD1;
+out vec4 vs_TEXCOORD2;
+out vec4 vs_TEXCOORD3;
+out vec4 vs_TEXCOORD4;
+out vec4 vs_TEXCOORD5;
+out vec4 vs_TEXCOORD6;
+out vec3 vs_TEXCOORD7;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+int u_xlati1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec4 u_xlat4;
+vec4 u_xlat5;
+vec3 u_xlat6;
+vec3 u_xlat7;
+bool u_xlatb8;
+float u_xlat15;
+bool u_xlatb15;
+float u_xlat22;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlat7.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_POSITION0.xxx + u_xlat7.xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_POSITION0.zzz + u_xlat7.xyz;
+    u_xlat7.xyz = u_xlat7.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    u_xlati1 = int(u_xlatu0) << 2;
+    u_xlat2 = u_xlat7.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati1] * u_xlat7.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 2)] * u_xlat7.zzzz + u_xlat2;
+    u_xlat2 = u_xlat2 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 3)];
+    vs_TEXCOORD0.zw = in_TEXCOORD0.xy * unity_LightmapST.xy + unity_LightmapST.zw;
+    vs_TEXCOORD1.xy = in_TEXCOORD0.xy * _Splat0_ST.xy + _Splat0_ST.zw;
+    vs_TEXCOORD1.zw = in_TEXCOORD0.xy * _Splat1_ST.xy + _Splat1_ST.zw;
+    vs_TEXCOORD2.xy = in_TEXCOORD0.xy * _Splat2_ST.xy + _Splat2_ST.zw;
+    vs_TEXCOORD2.zw = in_TEXCOORD0.xy * _Splat3_ST.xy + _Splat3_ST.zw;
+    u_xlatb8 = unity_OrthoParams.w==0.0;
+    if(u_xlatb8){
+        u_xlat3.xyw = (-u_xlat7.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu0)].xyz;
+        u_xlat4.w = u_xlat3.x;
+        u_xlat5.w = u_xlat3.y;
+    } else {
+        u_xlat4.w = hlslcc_mtx4x4unity_StereoMatrixV[u_xlati1].z;
+        u_xlat5.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 1)].z;
+        u_xlat3.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 2)].z;
+    }
+    u_xlat1.xy = in_NORMAL0.yz * vec2(1.0, 0.0);
+    u_xlat1.xy = in_NORMAL0.zx * vec2(0.0, 1.0) + (-u_xlat1.xy);
+    u_xlatb15 = unity_WorldTransformParams.w>=0.0;
+    u_xlat15 = (u_xlatb15) ? 1.0 : -1.0;
+    u_xlat6.xyz = in_NORMAL0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_NORMAL0.xxx + u_xlat6.xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_NORMAL0.zzz + u_xlat6.xyz;
+    u_xlat22 = dot(u_xlat6.xyz, u_xlat6.xyz);
+    u_xlat22 = max(u_xlat22, 1.17549435e-38);
+    u_xlat22 = inversesqrt(u_xlat22);
+    u_xlat4.xyz = vec3(u_xlat22) * u_xlat6.xyz;
+    u_xlat6.xyz = u_xlat1.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat1.xyw = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat1.xxx + u_xlat6.xyz;
+    u_xlat6.x = dot(u_xlat1.xyw, u_xlat1.xyw);
+    u_xlat6.x = max(u_xlat6.x, 1.17549435e-38);
+    u_xlat6.x = inversesqrt(u_xlat6.x);
+    u_xlat5.xyz = u_xlat1.xyw * u_xlat6.xxx;
+    u_xlat1.xyw = u_xlat4.zxy * u_xlat5.yzx;
+    u_xlat1.xyw = u_xlat4.yzx * u_xlat5.zxy + (-u_xlat1.xyw);
+    u_xlat3.xyz = vec3(u_xlat15) * u_xlat1.xyw;
+    vs_TEXCOORD6.x = u_xlat2.z * unity_FogParams.x;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    vs_TEXCOORD3 = u_xlat4;
+    vs_TEXCOORD4 = u_xlat5;
+    vs_TEXCOORD5 = u_xlat3;
+    vs_TEXCOORD6.yzw = vec3(0.0, 0.0, 0.0);
+    gl_Position = u_xlat2;
+    vs_TEXCOORD7.xyz = u_xlat7.xyz;
+    gl_Layer = int(u_xlatu0);
+    vs_BLENDINDICES0 = u_xlatu0;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Universal Render Pipeline/Terrain/Lit:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Universal Render Pipeline/Terrain/Lit' failed.
+-------- Shader Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass) compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 unity_OrthoParams;
+uniform 	vec4 unity_FogParams;
+UNITY_BINDING(1) uniform UnityPerDraw {
+	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
+	vec4 unity_LODFade;
+	vec4 unity_WorldTransformParams;
+	vec4 unity_LightData;
+	vec4 unity_LightIndices[2];
+	vec4 unity_ProbesOcclusion;
+	vec4 unity_SpecCube0_HDR;
+	vec4 unity_LightmapST;
+	vec4 unity_DynamicLightmapST;
+	vec4 unity_SHAr;
+	vec4 unity_SHAg;
+	vec4 unity_SHAb;
+	vec4 unity_SHBr;
+	vec4 unity_SHBg;
+	vec4 unity_SHBb;
+	vec4 unity_SHC;
+};
+UNITY_BINDING(2) uniform UnityStereoViewBuffer {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+UNITY_BINDING(3) uniform _Terrain {
+	float _NormalScale0;
+	float _NormalScale1;
+	float _NormalScale2;
+	float _NormalScale3;
+	float _Metallic0;
+	float _Metallic1;
+	float _Metallic2;
+	float _Metallic3;
+	float _Smoothness0;
+	float _Smoothness1;
+	float _Smoothness2;
+	float _Smoothness3;
+	vec4 _DiffuseRemapScale0;
+	vec4 _DiffuseRemapScale1;
+	vec4 _DiffuseRemapScale2;
+	vec4 _DiffuseRemapScale3;
+	vec4 _MaskMapRemapOffset0;
+	vec4 _MaskMapRemapOffset1;
+	vec4 _MaskMapRemapOffset2;
+	vec4 _MaskMapRemapOffset3;
+	vec4 _MaskMapRemapScale0;
+	vec4 _MaskMapRemapScale1;
+	vec4 _MaskMapRemapScale2;
+	vec4 _MaskMapRemapScale3;
+	vec4 _Control_ST;
+	vec4 _Control_TexelSize;
+	float _DiffuseHasAlpha0;
+	float _DiffuseHasAlpha1;
+	float _DiffuseHasAlpha2;
+	float _DiffuseHasAlpha3;
+	float _LayerHasMask0;
+	float _LayerHasMask1;
+	float _LayerHasMask2;
+	float _LayerHasMask3;
+	vec4 _Splat0_ST;
+	vec4 _Splat1_ST;
+	vec4 _Splat2_ST;
+	vec4 _Splat3_ST;
+	float _HeightTransition;
+	float _NumLayersCount;
+};
+in  vec4 in_POSITION0;
+in  vec3 in_NORMAL0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_TEXCOORD0;
+out vec4 vs_TEXCOORD1;
+out vec4 vs_TEXCOORD2;
+out vec4 vs_TEXCOORD3;
+out vec4 vs_TEXCOORD4;
+out vec4 vs_TEXCOORD5;
+out vec4 vs_TEXCOORD6;
+out vec3 vs_TEXCOORD7;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+int u_xlati1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec4 u_xlat4;
+vec4 u_xlat5;
+vec3 u_xlat6;
+vec3 u_xlat7;
+bool u_xlatb8;
+float u_xlat15;
+bool u_xlatb15;
+float u_xlat22;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlat7.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_POSITION0.xxx + u_xlat7.xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_POSITION0.zzz + u_xlat7.xyz;
+    u_xlat7.xyz = u_xlat7.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    u_xlati1 = int(u_xlatu0) << 2;
+    u_xlat2 = u_xlat7.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati1] * u_xlat7.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 2)] * u_xlat7.zzzz + u_xlat2;
+    u_xlat2 = u_xlat2 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 3)];
+    vs_TEXCOORD0.zw = in_TEXCOORD0.xy * unity_LightmapST.xy + unity_LightmapST.zw;
+    vs_TEXCOORD1.xy = in_TEXCOORD0.xy * _Splat0_ST.xy + _Splat0_ST.zw;
+    vs_TEXCOORD1.zw = in_TEXCOORD0.xy * _Splat1_ST.xy + _Splat1_ST.zw;
+    vs_TEXCOORD2.xy = in_TEXCOORD0.xy * _Splat2_ST.xy + _Splat2_ST.zw;
+    vs_TEXCOORD2.zw = in_TEXCOORD0.xy * _Splat3_ST.xy + _Splat3_ST.zw;
+    u_xlatb8 = unity_OrthoParams.w==0.0;
+    if(u_xlatb8){
+        u_xlat3.xyw = (-u_xlat7.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu0)].xyz;
+        u_xlat4.w = u_xlat3.x;
+        u_xlat5.w = u_xlat3.y;
+    } else {
+        u_xlat4.w = hlslcc_mtx4x4unity_StereoMatrixV[u_xlati1].z;
+        u_xlat5.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 1)].z;
+        u_xlat3.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 2)].z;
+    }
+    u_xlat1.xy = in_NORMAL0.yz * vec2(1.0, 0.0);
+    u_xlat1.xy = in_NORMAL0.zx * vec2(0.0, 1.0) + (-u_xlat1.xy);
+    u_xlatb15 = unity_WorldTransformParams.w>=0.0;
+    u_xlat15 = (u_xlatb15) ? 1.0 : -1.0;
+    u_xlat6.xyz = in_NORMAL0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_NORMAL0.xxx + u_xlat6.xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_NORMAL0.zzz + u_xlat6.xyz;
+    u_xlat22 = dot(u_xlat6.xyz, u_xlat6.xyz);
+    u_xlat22 = max(u_xlat22, 1.17549435e-38);
+    u_xlat22 = inversesqrt(u_xlat22);
+    u_xlat4.xyz = vec3(u_xlat22) * u_xlat6.xyz;
+    u_xlat6.xyz = u_xlat1.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat1.xyw = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat1.xxx + u_xlat6.xyz;
+    u_xlat6.x = dot(u_xlat1.xyw, u_xlat1.xyw);
+    u_xlat6.x = max(u_xlat6.x, 1.17549435e-38);
+    u_xlat6.x = inversesqrt(u_xlat6.x);
+    u_xlat5.xyz = u_xlat1.xyw * u_xlat6.xxx;
+    u_xlat1.xyw = u_xlat4.zxy * u_xlat5.yzx;
+    u_xlat1.xyw = u_xlat4.yzx * u_xlat5.zxy + (-u_xlat1.xyw);
+    u_xlat3.xyz = vec3(u_xlat15) * u_xlat1.xyw;
+    vs_TEXCOORD6.x = u_xlat2.z * unity_FogParams.x;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    vs_TEXCOORD3 = u_xlat4;
+    vs_TEXCOORD4 = u_xlat5;
+    vs_TEXCOORD5 = u_xlat3;
+    vs_TEXCOORD6.yzw = vec3(0.0, 0.0, 0.0);
+    gl_Position = u_xlat2;
+    vs_TEXCOORD7.xyz = u_xlat7.xyz;
+    gl_Layer = int(u_xlatu0);
+    vs_BLENDINDICES0 = u_xlatu0;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass):
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' failed.
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
-Unloading 3571 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 277.4 MB.
-System memory in use after: 277.3 MB.
+-------- Shader Sprites/Default compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 _RendererColor;
+uniform 	vec2 _Flip;
+uniform 	vec4 _Color;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+in  vec4 in_COLOR0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_COLOR0;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+vec4 u_xlat0;
+vec4 u_xlat1;
+uint u_xlatu1;
+vec4 u_xlat2;
+int u_xlati4;
+void main()
+{
+    u_xlat0.xy = in_POSITION0.xy * _Flip.xy;
+    u_xlat1 = u_xlat0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * u_xlat0.xxxx + u_xlat1;
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;
+    u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlatu1 = uint(gl_InstanceID) & 1u;
+    u_xlati4 = int(u_xlatu1) << 2;
+    u_xlat2 = u_xlat0.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati4] * u_xlat0.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 2)] * u_xlat0.zzzz + u_xlat2;
+    gl_Position = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 3)] * u_xlat0.wwww + u_xlat2;
+    u_xlat0 = in_COLOR0 * _Color;
+    vs_COLOR0 = u_xlat0 * _RendererColor;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    vs_BLENDINDICES0 = u_xlatu1;
+    gl_Layer = int(u_xlatu1);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Sprites/Default:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Sprites/Default' failed.
+-------- Shader Skybox/Procedural compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _WorldSpaceLightPos0;
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 _LightColor0;
+uniform 	float _Exposure;
+uniform 	vec3 _GroundColor;
+uniform 	vec3 _SkyTint;
+uniform 	float _AtmosphereThickness;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+out vec3 vs_TEXCOORD0;
+out vec3 vs_TEXCOORD1;
+out vec3 vs_TEXCOORD2;
+out vec3 vs_TEXCOORD3;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+bool u_xlatb1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec3 u_xlat4;
+vec4 u_xlat5;
+vec3 u_xlat6;
+vec3 u_xlat7;
+int u_xlati7;
+float u_xlat8;
+vec3 u_xlat9;
+float u_xlat15;
+vec2 u_xlat16;
+float u_xlat22;
+float u_xlat23;
+float u_xlat24;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlati7 = int(u_xlatu0) << 2;
+    u_xlat1 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat1 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat1;
+    u_xlat1 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat1;
+    u_xlat2 = u_xlat1 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlat3 = u_xlat2.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 1)];
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati7] * u_xlat2.xxxx + u_xlat3;
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 2)] * u_xlat2.zzzz + u_xlat3;
+    gl_Position = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 3)] * u_xlat2.wwww + u_xlat3;
+    u_xlat2 = log2(vec4(_SkyTint.x, _SkyTint.y, _SkyTint.z, _AtmosphereThickness));
+    u_xlat2 = u_xlat2 * vec4(0.454545468, 0.454545468, 0.454545468, 2.5);
+    u_xlat2 = exp2(u_xlat2);
+    u_xlat7.xyz = (-u_xlat2.xyz) + vec3(1.0, 1.0, 1.0);
+    u_xlat7.xyz = u_xlat7.xyz * vec3(0.300000012, 0.300000042, 0.300000012) + vec3(0.5, 0.419999987, 0.324999988);
+    u_xlat7.xyz = u_xlat7.xyz * u_xlat7.xyz;
+    u_xlat7.xyz = u_xlat7.xyz * u_xlat7.xyz;
+    u_xlat7.xyz = vec3(1.0, 1.0, 1.0) / u_xlat7.xyz;
+    u_xlat2.xy = u_xlat2.ww * vec2(0.049999997, 0.0314159282);
+    u_xlat22 = dot(u_xlat1.xyz, u_xlat1.xyz);
+    u_xlat22 = inversesqrt(u_xlat22);
+    u_xlat3.xyz = vec3(u_xlat22) * u_xlat1.xyz;
+    u_xlatb1 = u_xlat3.y>=0.0;
+    if(u_xlatb1){
+        u_xlat1.x = u_xlat3.y * u_xlat3.y + 0.0506249666;
+        u_xlat1.x = sqrt(u_xlat1.x);
+        u_xlat1.x = (-u_xlat1.y) * u_xlat22 + u_xlat1.x;
+        u_xlat8 = (-u_xlat3.y) * 1.0 + 1.0;
+        u_xlat15 = u_xlat8 * 5.25 + -6.80000019;
+        u_xlat15 = u_xlat8 * u_xlat15 + 3.82999992;
+        u_xlat15 = u_xlat8 * u_xlat15 + 0.458999991;
+        u_xlat8 = u_xlat8 * u_xlat15 + -0.00286999997;
+        u_xlat8 = u_xlat8 * 1.44269502;
+        u_xlat1.y = exp2(u_xlat8);
+        u_xlat1.xyz = u_xlat1.xyx * vec3(0.5, 0.246031836, 20.0);
+        u_xlat4.xyz = u_xlat1.xxx * u_xlat3.xyz;
+        u_xlat4.xyz = u_xlat4.xyz * vec3(0.5, 0.5, 0.5) + vec3(0.0, 1.00010002, 0.0);
+        u_xlat22 = dot(u_xlat4.xyz, u_xlat4.xyz);
+        u_xlat22 = sqrt(u_xlat22);
+        u_xlat16.x = (-u_xlat22) + 1.0;
+        u_xlat16.x = u_xlat16.x * 230.831207;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat23 = dot(_WorldSpaceLightPos0.xyz, u_xlat4.xyz);
+        u_xlat23 = u_xlat23 / u_xlat22;
+        u_xlat24 = dot(u_xlat3.xyz, u_xlat4.xyz);
+        u_xlat22 = u_xlat24 / u_xlat22;
+        u_xlat23 = (-u_xlat23) + 1.0;
+        u_xlat24 = u_xlat23 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat23 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat23 * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat23 * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat22 = (-u_xlat22) + 1.0;
+        u_xlat24 = u_xlat22 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat22 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat22 * u_xlat24 + 0.458999991;
+        u_xlat22 = u_xlat22 * u_xlat24 + -0.00286999997;
+        u_xlat22 = u_xlat22 * 1.44269502;
+        u_xlat22 = exp2(u_xlat22);
+        u_xlat22 = u_xlat22 * 0.25;
+        u_xlat22 = u_xlat23 * 0.25 + (-u_xlat22);
+        u_xlat22 = u_xlat16.x * u_xlat22 + u_xlat1.y;
+        u_xlat22 = max(u_xlat22, 0.0);
+        u_xlat22 = min(u_xlat22, 50.0);
+        u_xlat5.xyz = u_xlat7.xyz * u_xlat2.yyy + vec3(0.0125663709, 0.0125663709, 0.0125663709);
+        u_xlat6.xyz = (-vec3(u_xlat22)) * u_xlat5.xyz;
+        u_xlat6.xyz = u_xlat6.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat6.xyz = exp2(u_xlat6.xyz);
+        u_xlat22 = u_xlat1.z * u_xlat16.x;
+        u_xlat4.xyz = u_xlat3.xyz * u_xlat1.xxx + u_xlat4.xyz;
+        u_xlat1.x = dot(u_xlat4.xyz, u_xlat4.xyz);
+        u_xlat1.x = sqrt(u_xlat1.x);
+        u_xlat16.x = (-u_xlat1.x) + 1.0;
+        u_xlat16.x = u_xlat16.x * 230.831207;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat23 = dot(_WorldSpaceLightPos0.xyz, u_xlat4.xyz);
+        u_xlat23 = u_xlat23 / u_xlat1.x;
+        u_xlat24 = dot(u_xlat3.xyz, u_xlat4.xyz);
+        u_xlat1.x = u_xlat24 / u_xlat1.x;
+        u_xlat23 = (-u_xlat23) + 1.0;
+        u_xlat24 = u_xlat23 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat23 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat23 * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat23 * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat1.x = (-u_xlat1.x) + 1.0;
+        u_xlat24 = u_xlat1.x * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat1.x * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat1.x * u_xlat24 + 0.458999991;
+        u_xlat1.x = u_xlat1.x * u_xlat24 + -0.00286999997;
+        u_xlat1.x = u_xlat1.x * 1.44269502;
+        u_xlat1.x = exp2(u_xlat1.x);
+        u_xlat1.x = u_xlat1.x * 0.25;
+        u_xlat1.x = u_xlat23 * 0.25 + (-u_xlat1.x);
+        u_xlat1.x = u_xlat16.x * u_xlat1.x + u_xlat1.y;
+        u_xlat1.x = max(u_xlat1.x, 0.0);
+        u_xlat1.x = min(u_xlat1.x, 50.0);
+        u_xlat4.xyz = u_xlat5.xyz * (-u_xlat1.xxx);
+        u_xlat4.xyz = u_xlat4.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat4.xyz = exp2(u_xlat4.xyz);
+        u_xlat1.x = u_xlat1.z * u_xlat16.x;
+        u_xlat1.xyz = u_xlat1.xxx * u_xlat4.xyz;
+        u_xlat1.xyz = u_xlat6.xyz * vec3(u_xlat22) + u_xlat1.xyz;
+        u_xlat4.xyz = u_xlat7.xyz * u_xlat2.xxx;
+        u_xlat4.xyz = u_xlat1.xyz * u_xlat4.xyz;
+        u_xlat1.xyz = u_xlat1.xyz * vec3(0.0199999996, 0.0199999996, 0.0199999996);
+    } else {
+        u_xlat22 = min(u_xlat3.y, -0.00100000005);
+        u_xlat22 = -9.99999975e-05 / u_xlat22;
+        u_xlat5.xyz = vec3(u_xlat22) * u_xlat3.xyz + vec3(0.0, 1.00010002, 0.0);
+        u_xlat16.x = dot((-u_xlat3.xyz), u_xlat5.xyz);
+        u_xlat16.y = dot(_WorldSpaceLightPos0.xyz, u_xlat5.xyz);
+        u_xlat16.xy = (-u_xlat16.xy) + vec2(1.0, 1.0);
+        u_xlat24 = u_xlat16.x * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat16.x * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat16.x * u_xlat24 + 0.458999991;
+        u_xlat16.x = u_xlat16.x * u_xlat24 + -0.00286999997;
+        u_xlat16.x = u_xlat16.x * 1.44269502;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat24 = u_xlat16.y * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat16.y * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat16.y * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat16.y * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat5.xy = u_xlat16.xx * vec2(0.25, 0.249900013);
+        u_xlat16.x = u_xlat23 * 0.25 + u_xlat5.x;
+        u_xlat5.xz = vec2(u_xlat22) * vec2(0.5, 20.0);
+        u_xlat6.xyz = u_xlat3.xyz * u_xlat5.xxx;
+        u_xlat6.xyz = u_xlat6.xyz * vec3(0.5, 0.5, 0.5) + vec3(0.0, 1.00010002, 0.0);
+        u_xlat22 = dot(u_xlat6.xyz, u_xlat6.xyz);
+        u_xlat22 = sqrt(u_xlat22);
+        u_xlat22 = (-u_xlat22) + 1.0;
+        u_xlat22 = u_xlat22 * 230.831207;
+        u_xlat22 = exp2(u_xlat22);
+        u_xlat16.x = u_xlat22 * u_xlat16.x + (-u_xlat5.y);
+        u_xlat16.x = max(u_xlat16.x, 0.0);
+        u_xlat16.x = min(u_xlat16.x, 50.0);
+        u_xlat5.xyw = u_xlat7.xyz * u_xlat2.yyy + vec3(0.0125663709, 0.0125663709, 0.0125663709);
+        u_xlat9.xyz = (-u_xlat16.xxx) * u_xlat5.xyw;
+        u_xlat9.xyz = u_xlat9.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat1.xyz = exp2(u_xlat9.xyz);
+        u_xlat22 = u_xlat5.z * u_xlat22;
+        u_xlat9.xyz = vec3(u_xlat22) * u_xlat1.xyz;
+        u_xlat7.xyz = u_xlat7.xyz * u_xlat2.xxx + vec3(0.0199999996, 0.0199999996, 0.0199999996);
+        u_xlat4.xyz = u_xlat7.xyz * u_xlat9.xyz;
+    }
+    u_xlat7.xyz = vec3(_GroundColor.x, _GroundColor.y, _GroundColor.z) * u_xlat1.xyz + u_xlat4.xyz;
+    vs_TEXCOORD1.xyz = u_xlat7.xyz * vec3(_Exposure);
+    u_xlat7.x = dot(_WorldSpaceLightPos0.xyz, (-u_xlat3.xyz));
+    u_xlat7.x = u_xlat7.x * u_xlat7.x;
+    u_xlat7.x = u_xlat7.x * 0.75 + 0.75;
+    u_xlat7.xyz = u_xlat7.xxx * u_xlat4.xyz;
+    vs_TEXCOORD2.xyz = u_xlat7.xyz * vec3(_Exposure);
+    u_xlat7.x = dot(_LightColor0.xyz, _LightColor0.xyz);
+    u_xlat7.x = sqrt(u_xlat7.x);
+    u_xlat7.x = max(u_xlat7.x, 0.25);
+    u_xlat7.x = min(u_xlat7.x, 1.0);
+    u_xlat1.xyz = u_xlat1.xyz * vec3(8000.0, 8000.0, 8000.0);
+    u_xlat1.xyz = clamp(u_xlat1.xyz, 0.0, 1.0);
+    u_xlat1.xyz = u_xlat1.xyz * _LightColor0.xyz;
+    u_xlat1.xyz = u_xlat1.xyz * vec3(27.0, 27.0, 27.0);
+    vs_TEXCOORD3.xyz = u_xlat1.xyz / u_xlat7.xxx;
+    vs_TEXCOORD0.xyz = (-u_xlat3.xyz);
+    vs_BLENDINDICES0 = u_xlatu0;
+    gl_Layer = int(u_xlatu0);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Skybox/Procedural:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Skybox/Procedural' failed.
+-------- Shader Legacy Shaders/Particles/Additive compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 unity_FogParams;
+uniform 	vec4 _MainTex_ST;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+in  vec4 in_COLOR0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_COLOR0;
+out vec2 vs_TEXCOORD0;
+out float vs_TEXCOORD1;
+flat out uint vs_BLENDINDICES0;
+vec4 u_xlat0;
+uint u_xlatu1;
+vec4 u_xlat2;
+int u_xlati4;
+void main()
+{
+    u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;
+    u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlatu1 = uint(gl_InstanceID) & 1u;
+    u_xlati4 = int(u_xlatu1) << 2;
+    u_xlat2 = u_xlat0.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati4] * u_xlat0.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 2)] * u_xlat0.zzzz + u_xlat2;
+    u_xlat0 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 3)] * u_xlat0.wwww + u_xlat2;
+    gl_Position = u_xlat0;
+    u_xlat0.x = u_xlat0.z * unity_FogParams.x;
+    u_xlat0.x = u_xlat0.x * (-u_xlat0.x);
+    vs_TEXCOORD1 = exp2(u_xlat0.x);
+    vs_COLOR0 = in_COLOR0;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;
+    vs_BLENDINDICES0 = u_xlatu1;
+    gl_Layer = int(u_xlatu1);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Legacy Shaders/Particles/Additive:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Legacy Shaders/Particles/Additive' failed.
+-------- Shader Hidden/Universal Render Pipeline/Blit compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _ScaleBias;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+int u_xlati0;
+uvec2 u_xlatu0;
+vec3 u_xlat1;
+int u_xlati4;
+void main()
+{
+    u_xlati0 = int(uint(gl_VertexID) & 1u);
+    u_xlatu0.y = uint(gl_VertexID) >> 1u;
+    u_xlati4 = (-u_xlati0) + (-int(u_xlatu0.y));
+    u_xlati0 = u_xlati0 + int(u_xlatu0.y);
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.xz = vec2(u_xlatu0.yx);
+    vs_TEXCOORD0.xy = u_xlat1.xz * _ScaleBias.xy + _ScaleBias.zw;
+    u_xlati0 = u_xlati4 + 1;
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.y = float(u_xlatu0.x);
+    gl_Position.xy = u_xlat1.xy * vec2(2.0, -2.0) + vec2(-1.0, 1.0);
+    gl_Position.zw = vec2(-1.0, 1.0);
+    u_xlatu0.x = uint(gl_InstanceID) & 1u;
+    gl_Layer = int(u_xlatu0.x);
+    vs_BLENDINDICES0 = u_xlatu0.x;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/Blit:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/Blit' failed.
+-------- Shader Hidden/Universal Render Pipeline/CopyDepth compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _ScaleBiasRt;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+vec2 u_xlat0;
+int u_xlati0;
+uvec2 u_xlatu0;
+vec3 u_xlat1;
+int u_xlati4;
+void main()
+{
+    u_xlati0 = int(uint(gl_VertexID) & 1u);
+    u_xlatu0.y = uint(gl_VertexID) >> 1u;
+    u_xlati4 = (-u_xlati0) + (-int(u_xlatu0.y));
+    u_xlati0 = u_xlati0 + int(u_xlatu0.y);
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.xz = vec2(u_xlatu0.yx);
+    vs_TEXCOORD0.xy = u_xlat1.xz;
+    u_xlati0 = u_xlati4 + 1;
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.y = float(u_xlatu0.x);
+    u_xlat0.xy = u_xlat1.xy * vec2(2.0, -2.0) + vec2(-1.0, 1.0);
+    gl_Position.y = u_xlat0.y * _ScaleBiasRt.x;
+    gl_Position.x = u_xlat0.x;
+    gl_Position.zw = vec2(-1.0, 1.0);
+    u_xlatu0.x = uint(gl_InstanceID) & 1u;
+    gl_Layer = int(u_xlatu0.x);
+    vs_BLENDINDICES0 = u_xlatu0.x;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/CopyDepth:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/CopyDepth' failed.
+-------- Shader Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 unity_FogParams;
+UNITY_BINDING(1) uniform UnityPerDraw {
+	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
+	vec4 unity_LODFade;
+	vec4 unity_WorldTransformParams;
+	vec4 unity_LightData;
+	vec4 unity_LightIndices[2];
+	vec4 unity_ProbesOcclusion;
+	vec4 unity_SpecCube0_HDR;
+	vec4 unity_LightmapST;
+	vec4 unity_DynamicLightmapST;
+	vec4 unity_SHAr;
+	vec4 unity_SHAg;
+	vec4 unity_SHAb;
+	vec4 unity_SHBr;
+	vec4 unity_SHBg;
+	vec4 unity_SHBb;
+	vec4 unity_SHC;
+};
+UNITY_BINDING(2) uniform UnityStereoViewBuffer {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+UNITY_BINDING(5) uniform TerrainGrass {
+	vec4 _WavingTint;
+	vec4 _WaveAndDistance;
+	vec4 _CameraPosition;
+	vec3 _CameraRight;
+	vec3 _CameraUp;
+};
+in  vec4 in_POSITION0;
+in  vec3 in_NORMAL0;
+in  vec4 in_COLOR0;
+in  vec2 in_TEXCOORD0;
+out vec2 vs_TEXCOORD0;
+out vec3 vs_TEXCOORD1;
+out vec4 vs_TEXCOORD2;
+out vec3 vs_TEXCOORD3;
+out vec3 vs_TEXCOORD4;
+out vec4 vs_TEXCOORD5;
+out vec4 vs_TEXCOORD7;
+flat out uint vs_SV_InstanceID0;
+flat out uint vs_BLENDINDICES0;
+vec4 u_xlat0;
+vec4 u_xlat1;
+vec4 u_xlat2;
+int u_xlati2;
+vec4 u_xlat3;
+vec3 u_xlat4;
+float u_xlat12;
+uint u_xlatu13;
+float u_xlat14;
+void main()
+{
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    u_xlat0.x = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[0].xyz);
+    u_xlat0.y = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[1].xyz);
+    u_xlat0.z = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[2].xyz);
+    u_xlat12 = dot(u_xlat0.xyz, u_xlat0.xyz);
+    u_xlat12 = max(u_xlat12, 1.17549435e-38);
+    u_xlat12 = inversesqrt(u_xlat12);
+    u_xlat0.xyz = vec3(u_xlat12) * u_xlat0.xyz;
+    u_xlat1.x = u_xlat0.y * u_xlat0.y;
+    u_xlat1.x = u_xlat0.x * u_xlat0.x + (-u_xlat1.x);
+    u_xlat2 = u_xlat0.yzzx * u_xlat0.xyzz;
+    u_xlat3.x = dot(unity_SHBr, u_xlat2);
+    u_xlat3.y = dot(unity_SHBg, u_xlat2);
+    u_xlat3.z = dot(unity_SHBb, u_xlat2);
+    u_xlat1.xyz = unity_SHC.xyz * u_xlat1.xxx + u_xlat3.xyz;
+    u_xlat0.w = 1.0;
+    u_xlat2.x = dot(unity_SHAr, u_xlat0);
+    u_xlat2.y = dot(unity_SHAg, u_xlat0);
+    u_xlat2.z = dot(unity_SHAb, u_xlat0);
+    vs_TEXCOORD3.xyz = u_xlat0.xyz;
+    u_xlat0.xyz = u_xlat1.xyz + u_xlat2.xyz;
+    vs_TEXCOORD1.xyz = max(u_xlat0.xyz, vec3(0.0, 0.0, 0.0));
+    u_xlat0 = _WaveAndDistance.yyyy * vec4(0.00600000005, 0.0199999996, 0.0199999996, 0.0500000007);
+    u_xlat0 = u_xlat0 * in_POSITION0.zzzz;
+    u_xlat1 = _WaveAndDistance.yyyy * vec4(0.0120000001, 0.0199999996, 0.0599999987, 0.0240000002);
+    u_xlat0 = in_POSITION0.xxxx * u_xlat1 + u_xlat0;
+    u_xlat0 = _WaveAndDistance.xxxx * vec4(1.20000005, 2.0, 1.60000002, 4.80000019) + u_xlat0;
+    u_xlat0 = fract(u_xlat0);
+    u_xlat0 = u_xlat0 * vec4(6.40884876, 6.40884876, 6.40884876, 6.40884876) + vec4(-3.14159274, -3.14159274, -3.14159274, -3.14159274);
+    u_xlat1 = u_xlat0 * u_xlat0;
+    u_xlat2 = u_xlat0 * u_xlat1;
+    u_xlat0 = u_xlat2 * vec4(-0.161616161, -0.161616161, -0.161616161, -0.161616161) + u_xlat0;
+    u_xlat2 = u_xlat1 * u_xlat2;
+    u_xlat1 = u_xlat1 * u_xlat2;
+    u_xlat0 = u_xlat2 * vec4(0.00833330024, 0.00833330024, 0.00833330024, 0.00833330024) + u_xlat0;
+    u_xlat0 = u_xlat1 * vec4(-0.000198409994, -0.000198409994, -0.000198409994, -0.000198409994) + u_xlat0;
+    u_xlat0 = u_xlat0 * u_xlat0;
+    u_xlat0 = u_xlat0 * u_xlat0;
+    u_xlat1.x = in_COLOR0.w * _WaveAndDistance.z;
+    u_xlat1 = u_xlat0 * u_xlat1.xxxx;
+    u_xlat0.x = dot(u_xlat0, vec4(0.674199879, 0.674199879, 0.269679934, 0.134839967));
+    u_xlat0.x = u_xlat0.x * 0.699999988;
+    u_xlat2.x = dot(u_xlat1, vec4(0.0240000002, 0.0399999991, -0.119999997, 0.0960000008));
+    u_xlat2.z = dot(u_xlat1, vec4(0.00600000005, 0.0199999996, -0.0199999996, 0.100000001));
+    u_xlat1.xz = (-u_xlat2.xz) * _WaveAndDistance.zz + in_POSITION0.xz;
+    u_xlat4.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat4.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat1.xxx + u_xlat4.xyz;
+    u_xlat4.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * u_xlat1.zzz + u_xlat4.xyz;
+    u_xlat4.xyz = u_xlat4.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    vs_TEXCOORD2.xyz = u_xlat4.xyz;
+    vs_TEXCOORD2.w = 32.0;
+    u_xlatu13 = uint(gl_InstanceID) & 1u;
+    u_xlat2.xyz = (-u_xlat4.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu13)].xyz;
+    u_xlat14 = dot(u_xlat2.xyz, u_xlat2.xyz);
+    u_xlat14 = max(u_xlat14, 1.17549435e-38);
+    u_xlat14 = inversesqrt(u_xlat14);
+    vs_TEXCOORD4.xyz = vec3(u_xlat14) * u_xlat2.xyz;
+    u_xlati2 = int(u_xlatu13) << 2;
+    u_xlat3 = u_xlat4.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati2 + 1)];
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati2] * u_xlat4.xxxx + u_xlat3;
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati2 + 2)] * u_xlat4.zzzz + u_xlat3;
+    u_xlat2 = u_xlat3 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati2 + 3)];
+    vs_TEXCOORD5.x = u_xlat2.z * unity_FogParams.x;
+    gl_Position = u_xlat2;
+    vs_TEXCOORD5.yzw = vec3(0.0, 0.0, 0.0);
+    u_xlat1.y = in_POSITION0.y;
+    u_xlat4.xyz = u_xlat1.xyz + (-_CameraPosition.xyz);
+    u_xlat4.x = dot(u_xlat4.xyz, u_xlat4.xyz);
+    u_xlat4.x = (-u_xlat4.x) + _WaveAndDistance.w;
+    u_xlat4.x = u_xlat4.x + u_xlat4.x;
+    vs_TEXCOORD7.w = u_xlat4.x * _CameraPosition.w;
+    vs_TEXCOORD7.w = clamp(vs_TEXCOORD7.w, 0.0, 1.0);
+    u_xlat4.xyz = _WavingTint.xyz + vec3(-0.5, -0.5, -0.5);
+    u_xlat0.xyz = u_xlat0.xxx * u_xlat4.xyz + vec3(0.5, 0.5, 0.5);
+    u_xlat0.xyz = u_xlat0.xyz * in_COLOR0.xyz;
+    vs_TEXCOORD7.xyz = u_xlat0.xyz + u_xlat0.xyz;
+    vs_SV_InstanceID0 =  uint(gl_InstanceID);
+    gl_Layer = int(u_xlatu13);
+    vs_BLENDINDICES0 = u_xlatu13;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass' failed.
+-------- Shader Universal Render Pipeline/Terrain/Lit compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 unity_OrthoParams;
+uniform 	vec4 unity_FogParams;
+UNITY_BINDING(1) uniform UnityPerDraw {
+	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
+	vec4 unity_LODFade;
+	vec4 unity_WorldTransformParams;
+	vec4 unity_LightData;
+	vec4 unity_LightIndices[2];
+	vec4 unity_ProbesOcclusion;
+	vec4 unity_SpecCube0_HDR;
+	vec4 unity_LightmapST;
+	vec4 unity_DynamicLightmapST;
+	vec4 unity_SHAr;
+	vec4 unity_SHAg;
+	vec4 unity_SHAb;
+	vec4 unity_SHBr;
+	vec4 unity_SHBg;
+	vec4 unity_SHBb;
+	vec4 unity_SHC;
+};
+UNITY_BINDING(2) uniform UnityStereoViewBuffer {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+UNITY_BINDING(3) uniform _Terrain {
+	float _NormalScale0;
+	float _NormalScale1;
+	float _NormalScale2;
+	float _NormalScale3;
+	float _Metallic0;
+	float _Metallic1;
+	float _Metallic2;
+	float _Metallic3;
+	float _Smoothness0;
+	float _Smoothness1;
+	float _Smoothness2;
+	float _Smoothness3;
+	vec4 _DiffuseRemapScale0;
+	vec4 _DiffuseRemapScale1;
+	vec4 _DiffuseRemapScale2;
+	vec4 _DiffuseRemapScale3;
+	vec4 _MaskMapRemapOffset0;
+	vec4 _MaskMapRemapOffset1;
+	vec4 _MaskMapRemapOffset2;
+	vec4 _MaskMapRemapOffset3;
+	vec4 _MaskMapRemapScale0;
+	vec4 _MaskMapRemapScale1;
+	vec4 _MaskMapRemapScale2;
+	vec4 _MaskMapRemapScale3;
+	vec4 _Control_ST;
+	vec4 _Control_TexelSize;
+	float _DiffuseHasAlpha0;
+	float _DiffuseHasAlpha1;
+	float _DiffuseHasAlpha2;
+	float _DiffuseHasAlpha3;
+	float _LayerHasMask0;
+	float _LayerHasMask1;
+	float _LayerHasMask2;
+	float _LayerHasMask3;
+	vec4 _Splat0_ST;
+	vec4 _Splat1_ST;
+	vec4 _Splat2_ST;
+	vec4 _Splat3_ST;
+	float _HeightTransition;
+	float _NumLayersCount;
+};
+in  vec4 in_POSITION0;
+in  vec3 in_NORMAL0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_TEXCOORD0;
+out vec4 vs_TEXCOORD1;
+out vec4 vs_TEXCOORD2;
+out vec4 vs_TEXCOORD3;
+out vec4 vs_TEXCOORD4;
+out vec4 vs_TEXCOORD5;
+out vec4 vs_TEXCOORD6;
+out vec3 vs_TEXCOORD7;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+int u_xlati1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec4 u_xlat4;
+vec4 u_xlat5;
+vec3 u_xlat6;
+vec3 u_xlat7;
+bool u_xlatb8;
+float u_xlat15;
+bool u_xlatb15;
+float u_xlat22;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlat7.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_POSITION0.xxx + u_xlat7.xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_POSITION0.zzz + u_xlat7.xyz;
+    u_xlat7.xyz = u_xlat7.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    u_xlati1 = int(u_xlatu0) << 2;
+    u_xlat2 = u_xlat7.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati1] * u_xlat7.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 2)] * u_xlat7.zzzz + u_xlat2;
+    u_xlat2 = u_xlat2 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 3)];
+    vs_TEXCOORD0.zw = in_TEXCOORD0.xy * unity_LightmapST.xy + unity_LightmapST.zw;
+    vs_TEXCOORD1.xy = in_TEXCOORD0.xy * _Splat0_ST.xy + _Splat0_ST.zw;
+    vs_TEXCOORD1.zw = in_TEXCOORD0.xy * _Splat1_ST.xy + _Splat1_ST.zw;
+    vs_TEXCOORD2.xy = in_TEXCOORD0.xy * _Splat2_ST.xy + _Splat2_ST.zw;
+    vs_TEXCOORD2.zw = in_TEXCOORD0.xy * _Splat3_ST.xy + _Splat3_ST.zw;
+    u_xlatb8 = unity_OrthoParams.w==0.0;
+    if(u_xlatb8){
+        u_xlat3.xyw = (-u_xlat7.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu0)].xyz;
+        u_xlat4.w = u_xlat3.x;
+        u_xlat5.w = u_xlat3.y;
+    } else {
+        u_xlat4.w = hlslcc_mtx4x4unity_StereoMatrixV[u_xlati1].z;
+        u_xlat5.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 1)].z;
+        u_xlat3.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 2)].z;
+    }
+    u_xlat1.xy = in_NORMAL0.yz * vec2(1.0, 0.0);
+    u_xlat1.xy = in_NORMAL0.zx * vec2(0.0, 1.0) + (-u_xlat1.xy);
+    u_xlatb15 = unity_WorldTransformParams.w>=0.0;
+    u_xlat15 = (u_xlatb15) ? 1.0 : -1.0;
+    u_xlat6.xyz = in_NORMAL0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_NORMAL0.xxx + u_xlat6.xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_NORMAL0.zzz + u_xlat6.xyz;
+    u_xlat22 = dot(u_xlat6.xyz, u_xlat6.xyz);
+    u_xlat22 = max(u_xlat22, 1.17549435e-38);
+    u_xlat22 = inversesqrt(u_xlat22);
+    u_xlat4.xyz = vec3(u_xlat22) * u_xlat6.xyz;
+    u_xlat6.xyz = u_xlat1.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat1.xyw = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat1.xxx + u_xlat6.xyz;
+    u_xlat6.x = dot(u_xlat1.xyw, u_xlat1.xyw);
+    u_xlat6.x = max(u_xlat6.x, 1.17549435e-38);
+    u_xlat6.x = inversesqrt(u_xlat6.x);
+    u_xlat5.xyz = u_xlat1.xyw * u_xlat6.xxx;
+    u_xlat1.xyw = u_xlat4.zxy * u_xlat5.yzx;
+    u_xlat1.xyw = u_xlat4.yzx * u_xlat5.zxy + (-u_xlat1.xyw);
+    u_xlat3.xyz = vec3(u_xlat15) * u_xlat1.xyw;
+    vs_TEXCOORD6.x = u_xlat2.z * unity_FogParams.x;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    vs_TEXCOORD3 = u_xlat4;
+    vs_TEXCOORD4 = u_xlat5;
+    vs_TEXCOORD5 = u_xlat3;
+    vs_TEXCOORD6.yzw = vec3(0.0, 0.0, 0.0);
+    gl_Position = u_xlat2;
+    vs_TEXCOORD7.xyz = u_xlat7.xyz;
+    gl_Layer = int(u_xlatu0);
+    vs_BLENDINDICES0 = u_xlatu0;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Universal Render Pipeline/Terrain/Lit:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Universal Render Pipeline/Terrain/Lit' failed.
+-------- Shader Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass) compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 unity_OrthoParams;
+uniform 	vec4 unity_FogParams;
+UNITY_BINDING(1) uniform UnityPerDraw {
+	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
+	vec4 unity_LODFade;
+	vec4 unity_WorldTransformParams;
+	vec4 unity_LightData;
+	vec4 unity_LightIndices[2];
+	vec4 unity_ProbesOcclusion;
+	vec4 unity_SpecCube0_HDR;
+	vec4 unity_LightmapST;
+	vec4 unity_DynamicLightmapST;
+	vec4 unity_SHAr;
+	vec4 unity_SHAg;
+	vec4 unity_SHAb;
+	vec4 unity_SHBr;
+	vec4 unity_SHBg;
+	vec4 unity_SHBb;
+	vec4 unity_SHC;
+};
+UNITY_BINDING(2) uniform UnityStereoViewBuffer {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+UNITY_BINDING(3) uniform _Terrain {
+	float _NormalScale0;
+	float _NormalScale1;
+	float _NormalScale2;
+	float _NormalScale3;
+	float _Metallic0;
+	float _Metallic1;
+	float _Metallic2;
+	float _Metallic3;
+	float _Smoothness0;
+	float _Smoothness1;
+	float _Smoothness2;
+	float _Smoothness3;
+	vec4 _DiffuseRemapScale0;
+	vec4 _DiffuseRemapScale1;
+	vec4 _DiffuseRemapScale2;
+	vec4 _DiffuseRemapScale3;
+	vec4 _MaskMapRemapOffset0;
+	vec4 _MaskMapRemapOffset1;
+	vec4 _MaskMapRemapOffset2;
+	vec4 _MaskMapRemapOffset3;
+	vec4 _MaskMapRemapScale0;
+	vec4 _MaskMapRemapScale1;
+	vec4 _MaskMapRemapScale2;
+	vec4 _MaskMapRemapScale3;
+	vec4 _Control_ST;
+	vec4 _Control_TexelSize;
+	float _DiffuseHasAlpha0;
+	float _DiffuseHasAlpha1;
+	float _DiffuseHasAlpha2;
+	float _DiffuseHasAlpha3;
+	float _LayerHasMask0;
+	float _LayerHasMask1;
+	float _LayerHasMask2;
+	float _LayerHasMask3;
+	vec4 _Splat0_ST;
+	vec4 _Splat1_ST;
+	vec4 _Splat2_ST;
+	vec4 _Splat3_ST;
+	float _HeightTransition;
+	float _NumLayersCount;
+};
+in  vec4 in_POSITION0;
+in  vec3 in_NORMAL0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_TEXCOORD0;
+out vec4 vs_TEXCOORD1;
+out vec4 vs_TEXCOORD2;
+out vec4 vs_TEXCOORD3;
+out vec4 vs_TEXCOORD4;
+out vec4 vs_TEXCOORD5;
+out vec4 vs_TEXCOORD6;
+out vec3 vs_TEXCOORD7;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+int u_xlati1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec4 u_xlat4;
+vec4 u_xlat5;
+vec3 u_xlat6;
+vec3 u_xlat7;
+bool u_xlatb8;
+float u_xlat15;
+bool u_xlatb15;
+float u_xlat22;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlat7.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_POSITION0.xxx + u_xlat7.xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_POSITION0.zzz + u_xlat7.xyz;
+    u_xlat7.xyz = u_xlat7.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    u_xlati1 = int(u_xlatu0) << 2;
+    u_xlat2 = u_xlat7.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati1] * u_xlat7.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 2)] * u_xlat7.zzzz + u_xlat2;
+    u_xlat2 = u_xlat2 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 3)];
+    vs_TEXCOORD0.zw = in_TEXCOORD0.xy * unity_LightmapST.xy + unity_LightmapST.zw;
+    vs_TEXCOORD1.xy = in_TEXCOORD0.xy * _Splat0_ST.xy + _Splat0_ST.zw;
+    vs_TEXCOORD1.zw = in_TEXCOORD0.xy * _Splat1_ST.xy + _Splat1_ST.zw;
+    vs_TEXCOORD2.xy = in_TEXCOORD0.xy * _Splat2_ST.xy + _Splat2_ST.zw;
+    vs_TEXCOORD2.zw = in_TEXCOORD0.xy * _Splat3_ST.xy + _Splat3_ST.zw;
+    u_xlatb8 = unity_OrthoParams.w==0.0;
+    if(u_xlatb8){
+        u_xlat3.xyw = (-u_xlat7.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu0)].xyz;
+        u_xlat4.w = u_xlat3.x;
+        u_xlat5.w = u_xlat3.y;
+    } else {
+        u_xlat4.w = hlslcc_mtx4x4unity_StereoMatrixV[u_xlati1].z;
+        u_xlat5.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 1)].z;
+        u_xlat3.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 2)].z;
+    }
+    u_xlat1.xy = in_NORMAL0.yz * vec2(1.0, 0.0);
+    u_xlat1.xy = in_NORMAL0.zx * vec2(0.0, 1.0) + (-u_xlat1.xy);
+    u_xlatb15 = unity_WorldTransformParams.w>=0.0;
+    u_xlat15 = (u_xlatb15) ? 1.0 : -1.0;
+    u_xlat6.xyz = in_NORMAL0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_NORMAL0.xxx + u_xlat6.xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_NORMAL0.zzz + u_xlat6.xyz;
+    u_xlat22 = dot(u_xlat6.xyz, u_xlat6.xyz);
+    u_xlat22 = max(u_xlat22, 1.17549435e-38);
+    u_xlat22 = inversesqrt(u_xlat22);
+    u_xlat4.xyz = vec3(u_xlat22) * u_xlat6.xyz;
+    u_xlat6.xyz = u_xlat1.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat1.xyw = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat1.xxx + u_xlat6.xyz;
+    u_xlat6.x = dot(u_xlat1.xyw, u_xlat1.xyw);
+    u_xlat6.x = max(u_xlat6.x, 1.17549435e-38);
+    u_xlat6.x = inversesqrt(u_xlat6.x);
+    u_xlat5.xyz = u_xlat1.xyw * u_xlat6.xxx;
+    u_xlat1.xyw = u_xlat4.zxy * u_xlat5.yzx;
+    u_xlat1.xyw = u_xlat4.yzx * u_xlat5.zxy + (-u_xlat1.xyw);
+    u_xlat3.xyz = vec3(u_xlat15) * u_xlat1.xyw;
+    vs_TEXCOORD6.x = u_xlat2.z * unity_FogParams.x;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    vs_TEXCOORD3 = u_xlat4;
+    vs_TEXCOORD4 = u_xlat5;
+    vs_TEXCOORD5 = u_xlat3;
+    vs_TEXCOORD6.yzw = vec3(0.0, 0.0, 0.0);
+    gl_Position = u_xlat2;
+    vs_TEXCOORD7.xyz = u_xlat7.xyz;
+    gl_Layer = int(u_xlatu0);
+    vs_BLENDINDICES0 = u_xlatu0;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass):
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' failed.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
+Unloading 3568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.2 MB.
+System memory in use after: 296.1 MB.
 
-Unloading 168 unused Assets to reduce memory usage. Loaded Objects now: 4045.
-Total: 5.944034 ms (FindLiveObjects: 0.407042 ms CreateObjectMapping: 0.214144 ms MarkObjects: 4.998316 ms  DeleteObjects: 0.323114 ms)
+Unloading 167 unused Assets to reduce memory usage. Loaded Objects now: 4064.
+Total: 6.502802 ms (FindLiveObjects: 0.418900 ms CreateObjectMapping: 0.226427 ms MarkObjects: 5.526670 ms  DeleteObjects: 0.329305 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,42 +2225,1548 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator
-  artifactKey: Guid(63d08a050531249899a2736a507a1b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator using Guid(63d08a050531249899a2736a507a1b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6109d22f88b29838bf5f0fa484853d0d') in 0.009794 seconds 
+  path: Assets/XR/Settings/Mock HMD Build Settings.asset
+  artifactKey: Guid(fa8eb4f6f9e614225b0cbff979fea582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Mock HMD Build Settings.asset using Guid(fa8eb4f6f9e614225b0cbff979fea582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac9004866d943d56a32b2d469b5eb34') in 0.092813 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.556431 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Continuous Move.preset
-  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da3fe9c90d3328ccbda1acb67679066') in 0.076589 seconds 
+  Time since last request: 0.000301 seconds.
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(1e9166903476345c8a53fb17c1f5bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(1e9166903476345c8a53fb17c1f5bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16ae5b38f1b8cd1da49a9c50f3e1b8d') in 0.010372 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Left Controller.preset
-  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da23bb4005e61638a6b440ebe73d397d') in 0.030583 seconds 
+  Time since last request: 0.000343 seconds.
+  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
+  artifactKey: Guid(9e2a56e724bec44f59284b480314d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(9e2a56e724bec44f59284b480314d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4d41985cdc261521ba5c133c3e9a8f') in 0.010542 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Snap Turn.preset
-  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16670b800db6788a6c2019e24f3b4ddb') in 0.010751 seconds 
+  Time since last request: 0.000387 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(9648f41e9ff0448979e8f08e77b6f27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(9648f41e9ff0448979e8f08e77b6f27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499555af08f8ef4a4d3bd6dd2c3f7073') in 0.018437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/XR/Loaders/Mock HMD Loader.asset
+  artifactKey: Guid(090d3d142c3024aa7a0fcddb5ac0fdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Mock HMD Loader.asset using Guid(090d3d142c3024aa7a0fcddb5ac0fdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cda69b2131420eab4dc0a5dfdda11f6') in 0.006562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/XR/Loaders/Oculus Loader.asset
+  artifactKey: Guid(612a76fe5a4a74b8cbf120d65a21b6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(612a76fe5a4a74b8cbf120d65a21b6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34aef5d7504ddcea882bbe5a9d6dbf2') in 0.007042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.489014 seconds.
+  path: Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+  artifactKey: Guid(dfedecbf3423e4d71ae1a3cda236e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/Resources/InteractionLayerSettings.asset using Guid(dfedecbf3423e4d71ae1a3cda236e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e958813039b1a28ee63b16624485d1') in 0.014326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.786159 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa4b27c5dd83175e706fee0d81c3ad2') in 0.074529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator/XR Device Simulator.prefab
+  artifactKey: Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator/XR Device Simulator.prefab using Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9437ee3cc7d0671699259e9015841b') in 0.075734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.183526 seconds.
+  path: Assets/Presets/Defaults/AlbedoTexture_Default.preset
+  artifactKey: Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/AlbedoTexture_Default.preset using Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39f5c6fcb9ea97bf434963b23d33ea7') in 0.050503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Presets/Defaults/AudioDecompressOnLoad.preset
+  artifactKey: Guid(e7689051185d12f4298e1ebb2693a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/AudioDecompressOnLoad.preset using Guid(e7689051185d12f4298e1ebb2693a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d1cf06e67cef88edace491fed66d7e') in 0.008238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Presets/Defaults/DirectionalLight_Default.preset
+  artifactKey: Guid(463065d4f17d1d94d848aa127b94dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/DirectionalLight_Default.preset using Guid(463065d4f17d1d94d848aa127b94dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a078c6ae54eb254be36a9378726b4a') in 0.008132 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011915 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2356ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (2040ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (640ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (696ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+-------- Shader Sprites/Default compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 _RendererColor;
+uniform 	vec2 _Flip;
+uniform 	vec4 _Color;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+in  vec4 in_COLOR0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_COLOR0;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+vec4 u_xlat0;
+vec4 u_xlat1;
+uint u_xlatu1;
+vec4 u_xlat2;
+int u_xlati4;
+void main()
+{
+    u_xlat0.xy = in_POSITION0.xy * _Flip.xy;
+    u_xlat1 = u_xlat0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * u_xlat0.xxxx + u_xlat1;
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;
+    u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlatu1 = uint(gl_InstanceID) & 1u;
+    u_xlati4 = int(u_xlatu1) << 2;
+    u_xlat2 = u_xlat0.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati4] * u_xlat0.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 2)] * u_xlat0.zzzz + u_xlat2;
+    gl_Position = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 3)] * u_xlat0.wwww + u_xlat2;
+    u_xlat0 = in_COLOR0 * _Color;
+    vs_COLOR0 = u_xlat0 * _RendererColor;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    vs_BLENDINDICES0 = u_xlatu1;
+    gl_Layer = int(u_xlatu1);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Sprites/Default:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Sprites/Default' failed.
+-------- Shader Skybox/Procedural compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _WorldSpaceLightPos0;
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 _LightColor0;
+uniform 	float _Exposure;
+uniform 	vec3 _GroundColor;
+uniform 	vec3 _SkyTint;
+uniform 	float _AtmosphereThickness;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+out vec3 vs_TEXCOORD0;
+out vec3 vs_TEXCOORD1;
+out vec3 vs_TEXCOORD2;
+out vec3 vs_TEXCOORD3;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+bool u_xlatb1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec3 u_xlat4;
+vec4 u_xlat5;
+vec3 u_xlat6;
+vec3 u_xlat7;
+int u_xlati7;
+float u_xlat8;
+vec3 u_xlat9;
+float u_xlat15;
+vec2 u_xlat16;
+float u_xlat22;
+float u_xlat23;
+float u_xlat24;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlati7 = int(u_xlatu0) << 2;
+    u_xlat1 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat1 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat1;
+    u_xlat1 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat1;
+    u_xlat2 = u_xlat1 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlat3 = u_xlat2.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 1)];
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati7] * u_xlat2.xxxx + u_xlat3;
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 2)] * u_xlat2.zzzz + u_xlat3;
+    gl_Position = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 3)] * u_xlat2.wwww + u_xlat3;
+    u_xlat2 = log2(vec4(_SkyTint.x, _SkyTint.y, _SkyTint.z, _AtmosphereThickness));
+    u_xlat2 = u_xlat2 * vec4(0.454545468, 0.454545468, 0.454545468, 2.5);
+    u_xlat2 = exp2(u_xlat2);
+    u_xlat7.xyz = (-u_xlat2.xyz) + vec3(1.0, 1.0, 1.0);
+    u_xlat7.xyz = u_xlat7.xyz * vec3(0.300000012, 0.300000042, 0.300000012) + vec3(0.5, 0.419999987, 0.324999988);
+    u_xlat7.xyz = u_xlat7.xyz * u_xlat7.xyz;
+    u_xlat7.xyz = u_xlat7.xyz * u_xlat7.xyz;
+    u_xlat7.xyz = vec3(1.0, 1.0, 1.0) / u_xlat7.xyz;
+    u_xlat2.xy = u_xlat2.ww * vec2(0.049999997, 0.0314159282);
+    u_xlat22 = dot(u_xlat1.xyz, u_xlat1.xyz);
+    u_xlat22 = inversesqrt(u_xlat22);
+    u_xlat3.xyz = vec3(u_xlat22) * u_xlat1.xyz;
+    u_xlatb1 = u_xlat3.y>=0.0;
+    if(u_xlatb1){
+        u_xlat1.x = u_xlat3.y * u_xlat3.y + 0.0506249666;
+        u_xlat1.x = sqrt(u_xlat1.x);
+        u_xlat1.x = (-u_xlat1.y) * u_xlat22 + u_xlat1.x;
+        u_xlat8 = (-u_xlat3.y) * 1.0 + 1.0;
+        u_xlat15 = u_xlat8 * 5.25 + -6.80000019;
+        u_xlat15 = u_xlat8 * u_xlat15 + 3.82999992;
+        u_xlat15 = u_xlat8 * u_xlat15 + 0.458999991;
+        u_xlat8 = u_xlat8 * u_xlat15 + -0.00286999997;
+        u_xlat8 = u_xlat8 * 1.44269502;
+        u_xlat1.y = exp2(u_xlat8);
+        u_xlat1.xyz = u_xlat1.xyx * vec3(0.5, 0.246031836, 20.0);
+        u_xlat4.xyz = u_xlat1.xxx * u_xlat3.xyz;
+        u_xlat4.xyz = u_xlat4.xyz * vec3(0.5, 0.5, 0.5) + vec3(0.0, 1.00010002, 0.0);
+        u_xlat22 = dot(u_xlat4.xyz, u_xlat4.xyz);
+        u_xlat22 = sqrt(u_xlat22);
+        u_xlat16.x = (-u_xlat22) + 1.0;
+        u_xlat16.x = u_xlat16.x * 230.831207;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat23 = dot(_WorldSpaceLightPos0.xyz, u_xlat4.xyz);
+        u_xlat23 = u_xlat23 / u_xlat22;
+        u_xlat24 = dot(u_xlat3.xyz, u_xlat4.xyz);
+        u_xlat22 = u_xlat24 / u_xlat22;
+        u_xlat23 = (-u_xlat23) + 1.0;
+        u_xlat24 = u_xlat23 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat23 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat23 * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat23 * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat22 = (-u_xlat22) + 1.0;
+        u_xlat24 = u_xlat22 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat22 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat22 * u_xlat24 + 0.458999991;
+        u_xlat22 = u_xlat22 * u_xlat24 + -0.00286999997;
+        u_xlat22 = u_xlat22 * 1.44269502;
+        u_xlat22 = exp2(u_xlat22);
+        u_xlat22 = u_xlat22 * 0.25;
+        u_xlat22 = u_xlat23 * 0.25 + (-u_xlat22);
+        u_xlat22 = u_xlat16.x * u_xlat22 + u_xlat1.y;
+        u_xlat22 = max(u_xlat22, 0.0);
+        u_xlat22 = min(u_xlat22, 50.0);
+        u_xlat5.xyz = u_xlat7.xyz * u_xlat2.yyy + vec3(0.0125663709, 0.0125663709, 0.0125663709);
+        u_xlat6.xyz = (-vec3(u_xlat22)) * u_xlat5.xyz;
+        u_xlat6.xyz = u_xlat6.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat6.xyz = exp2(u_xlat6.xyz);
+        u_xlat22 = u_xlat1.z * u_xlat16.x;
+        u_xlat4.xyz = u_xlat3.xyz * u_xlat1.xxx + u_xlat4.xyz;
+        u_xlat1.x = dot(u_xlat4.xyz, u_xlat4.xyz);
+        u_xlat1.x = sqrt(u_xlat1.x);
+        u_xlat16.x = (-u_xlat1.x) + 1.0;
+        u_xlat16.x = u_xlat16.x * 230.831207;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat23 = dot(_WorldSpaceLightPos0.xyz, u_xlat4.xyz);
+        u_xlat23 = u_xlat23 / u_xlat1.x;
+        u_xlat24 = dot(u_xlat3.xyz, u_xlat4.xyz);
+        u_xlat1.x = u_xlat24 / u_xlat1.x;
+        u_xlat23 = (-u_xlat23) + 1.0;
+        u_xlat24 = u_xlat23 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat23 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat23 * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat23 * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat1.x = (-u_xlat1.x) + 1.0;
+        u_xlat24 = u_xlat1.x * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat1.x * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat1.x * u_xlat24 + 0.458999991;
+        u_xlat1.x = u_xlat1.x * u_xlat24 + -0.00286999997;
+        u_xlat1.x = u_xlat1.x * 1.44269502;
+        u_xlat1.x = exp2(u_xlat1.x);
+        u_xlat1.x = u_xlat1.x * 0.25;
+        u_xlat1.x = u_xlat23 * 0.25 + (-u_xlat1.x);
+        u_xlat1.x = u_xlat16.x * u_xlat1.x + u_xlat1.y;
+        u_xlat1.x = max(u_xlat1.x, 0.0);
+        u_xlat1.x = min(u_xlat1.x, 50.0);
+        u_xlat4.xyz = u_xlat5.xyz * (-u_xlat1.xxx);
+        u_xlat4.xyz = u_xlat4.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat4.xyz = exp2(u_xlat4.xyz);
+        u_xlat1.x = u_xlat1.z * u_xlat16.x;
+        u_xlat1.xyz = u_xlat1.xxx * u_xlat4.xyz;
+        u_xlat1.xyz = u_xlat6.xyz * vec3(u_xlat22) + u_xlat1.xyz;
+        u_xlat4.xyz = u_xlat7.xyz * u_xlat2.xxx;
+        u_xlat4.xyz = u_xlat1.xyz * u_xlat4.xyz;
+        u_xlat1.xyz = u_xlat1.xyz * vec3(0.0199999996, 0.0199999996, 0.0199999996);
+    } else {
+        u_xlat22 = min(u_xlat3.y, -0.00100000005);
+        u_xlat22 = -9.99999975e-05 / u_xlat22;
+        u_xlat5.xyz = vec3(u_xlat22) * u_xlat3.xyz + vec3(0.0, 1.00010002, 0.0);
+        u_xlat16.x = dot((-u_xlat3.xyz), u_xlat5.xyz);
+        u_xlat16.y = dot(_WorldSpaceLightPos0.xyz, u_xlat5.xyz);
+        u_xlat16.xy = (-u_xlat16.xy) + vec2(1.0, 1.0);
+        u_xlat24 = u_xlat16.x * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat16.x * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat16.x * u_xlat24 + 0.458999991;
+        u_xlat16.x = u_xlat16.x * u_xlat24 + -0.00286999997;
+        u_xlat16.x = u_xlat16.x * 1.44269502;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat24 = u_xlat16.y * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat16.y * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat16.y * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat16.y * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat5.xy = u_xlat16.xx * vec2(0.25, 0.249900013);
+        u_xlat16.x = u_xlat23 * 0.25 + u_xlat5.x;
+        u_xlat5.xz = vec2(u_xlat22) * vec2(0.5, 20.0);
+        u_xlat6.xyz = u_xlat3.xyz * u_xlat5.xxx;
+        u_xlat6.xyz = u_xlat6.xyz * vec3(0.5, 0.5, 0.5) + vec3(0.0, 1.00010002, 0.0);
+        u_xlat22 = dot(u_xlat6.xyz, u_xlat6.xyz);
+        u_xlat22 = sqrt(u_xlat22);
+        u_xlat22 = (-u_xlat22) + 1.0;
+        u_xlat22 = u_xlat22 * 230.831207;
+        u_xlat22 = exp2(u_xlat22);
+        u_xlat16.x = u_xlat22 * u_xlat16.x + (-u_xlat5.y);
+        u_xlat16.x = max(u_xlat16.x, 0.0);
+        u_xlat16.x = min(u_xlat16.x, 50.0);
+        u_xlat5.xyw = u_xlat7.xyz * u_xlat2.yyy + vec3(0.0125663709, 0.0125663709, 0.0125663709);
+        u_xlat9.xyz = (-u_xlat16.xxx) * u_xlat5.xyw;
+        u_xlat9.xyz = u_xlat9.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat1.xyz = exp2(u_xlat9.xyz);
+        u_xlat22 = u_xlat5.z * u_xlat22;
+        u_xlat9.xyz = vec3(u_xlat22) * u_xlat1.xyz;
+        u_xlat7.xyz = u_xlat7.xyz * u_xlat2.xxx + vec3(0.0199999996, 0.0199999996, 0.0199999996);
+        u_xlat4.xyz = u_xlat7.xyz * u_xlat9.xyz;
+    }
+    u_xlat7.xyz = vec3(_GroundColor.x, _GroundColor.y, _GroundColor.z) * u_xlat1.xyz + u_xlat4.xyz;
+    vs_TEXCOORD1.xyz = u_xlat7.xyz * vec3(_Exposure);
+    u_xlat7.x = dot(_WorldSpaceLightPos0.xyz, (-u_xlat3.xyz));
+    u_xlat7.x = u_xlat7.x * u_xlat7.x;
+    u_xlat7.x = u_xlat7.x * 0.75 + 0.75;
+    u_xlat7.xyz = u_xlat7.xxx * u_xlat4.xyz;
+    vs_TEXCOORD2.xyz = u_xlat7.xyz * vec3(_Exposure);
+    u_xlat7.x = dot(_LightColor0.xyz, _LightColor0.xyz);
+    u_xlat7.x = sqrt(u_xlat7.x);
+    u_xlat7.x = max(u_xlat7.x, 0.25);
+    u_xlat7.x = min(u_xlat7.x, 1.0);
+    u_xlat1.xyz = u_xlat1.xyz * vec3(8000.0, 8000.0, 8000.0);
+    u_xlat1.xyz = clamp(u_xlat1.xyz, 0.0, 1.0);
+    u_xlat1.xyz = u_xlat1.xyz * _LightColor0.xyz;
+    u_xlat1.xyz = u_xlat1.xyz * vec3(27.0, 27.0, 27.0);
+    vs_TEXCOORD3.xyz = u_xlat1.xyz / u_xlat7.xxx;
+    vs_TEXCOORD0.xyz = (-u_xlat3.xyz);
+    vs_BLENDINDICES0 = u_xlatu0;
+    gl_Layer = int(u_xlatu0);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Skybox/Procedural:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Skybox/Procedural' failed.
+-------- Shader Legacy Shaders/Particles/Additive compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 unity_FogParams;
+uniform 	vec4 _MainTex_ST;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+in  vec4 in_COLOR0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_COLOR0;
+out vec2 vs_TEXCOORD0;
+out float vs_TEXCOORD1;
+flat out uint vs_BLENDINDICES0;
+vec4 u_xlat0;
+uint u_xlatu1;
+vec4 u_xlat2;
+int u_xlati4;
+void main()
+{
+    u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;
+    u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlatu1 = uint(gl_InstanceID) & 1u;
+    u_xlati4 = int(u_xlatu1) << 2;
+    u_xlat2 = u_xlat0.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati4] * u_xlat0.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 2)] * u_xlat0.zzzz + u_xlat2;
+    u_xlat0 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 3)] * u_xlat0.wwww + u_xlat2;
+    gl_Position = u_xlat0;
+    u_xlat0.x = u_xlat0.z * unity_FogParams.x;
+    u_xlat0.x = u_xlat0.x * (-u_xlat0.x);
+    vs_TEXCOORD1 = exp2(u_xlat0.x);
+    vs_COLOR0 = in_COLOR0;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;
+    vs_BLENDINDICES0 = u_xlatu1;
+    gl_Layer = int(u_xlatu1);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Legacy Shaders/Particles/Additive:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Legacy Shaders/Particles/Additive' failed.
+-------- Shader Hidden/Universal Render Pipeline/Blit compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _ScaleBias;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+int u_xlati0;
+uvec2 u_xlatu0;
+vec3 u_xlat1;
+int u_xlati4;
+void main()
+{
+    u_xlati0 = int(uint(gl_VertexID) & 1u);
+    u_xlatu0.y = uint(gl_VertexID) >> 1u;
+    u_xlati4 = (-u_xlati0) + (-int(u_xlatu0.y));
+    u_xlati0 = u_xlati0 + int(u_xlatu0.y);
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.xz = vec2(u_xlatu0.yx);
+    vs_TEXCOORD0.xy = u_xlat1.xz * _ScaleBias.xy + _ScaleBias.zw;
+    u_xlati0 = u_xlati4 + 1;
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.y = float(u_xlatu0.x);
+    gl_Position.xy = u_xlat1.xy * vec2(2.0, -2.0) + vec2(-1.0, 1.0);
+    gl_Position.zw = vec2(-1.0, 1.0);
+    u_xlatu0.x = uint(gl_InstanceID) & 1u;
+    gl_Layer = int(u_xlatu0.x);
+    vs_BLENDINDICES0 = u_xlatu0.x;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/Blit:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/Blit' failed.
+-------- Shader Hidden/Universal Render Pipeline/CopyDepth compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _ScaleBiasRt;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+vec2 u_xlat0;
+int u_xlati0;
+uvec2 u_xlatu0;
+vec3 u_xlat1;
+int u_xlati4;
+void main()
+{
+    u_xlati0 = int(uint(gl_VertexID) & 1u);
+    u_xlatu0.y = uint(gl_VertexID) >> 1u;
+    u_xlati4 = (-u_xlati0) + (-int(u_xlatu0.y));
+    u_xlati0 = u_xlati0 + int(u_xlatu0.y);
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.xz = vec2(u_xlatu0.yx);
+    vs_TEXCOORD0.xy = u_xlat1.xz;
+    u_xlati0 = u_xlati4 + 1;
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.y = float(u_xlatu0.x);
+    u_xlat0.xy = u_xlat1.xy * vec2(2.0, -2.0) + vec2(-1.0, 1.0);
+    gl_Position.y = u_xlat0.y * _ScaleBiasRt.x;
+    gl_Position.x = u_xlat0.x;
+    gl_Position.zw = vec2(-1.0, 1.0);
+    u_xlatu0.x = uint(gl_InstanceID) & 1u;
+    gl_Layer = int(u_xlatu0.x);
+    vs_BLENDINDICES0 = u_xlatu0.x;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/CopyDepth:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/CopyDepth' failed.
+-------- Shader Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 unity_FogParams;
+UNITY_BINDING(1) uniform UnityPerDraw {
+	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
+	vec4 unity_LODFade;
+	vec4 unity_WorldTransformParams;
+	vec4 unity_LightData;
+	vec4 unity_LightIndices[2];
+	vec4 unity_ProbesOcclusion;
+	vec4 unity_SpecCube0_HDR;
+	vec4 unity_LightmapST;
+	vec4 unity_DynamicLightmapST;
+	vec4 unity_SHAr;
+	vec4 unity_SHAg;
+	vec4 unity_SHAb;
+	vec4 unity_SHBr;
+	vec4 unity_SHBg;
+	vec4 unity_SHBb;
+	vec4 unity_SHC;
+};
+UNITY_BINDING(2) uniform UnityStereoViewBuffer {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+UNITY_BINDING(5) uniform TerrainGrass {
+	vec4 _WavingTint;
+	vec4 _WaveAndDistance;
+	vec4 _CameraPosition;
+	vec3 _CameraRight;
+	vec3 _CameraUp;
+};
+in  vec4 in_POSITION0;
+in  vec3 in_NORMAL0;
+in  vec4 in_COLOR0;
+in  vec2 in_TEXCOORD0;
+out vec2 vs_TEXCOORD0;
+out vec3 vs_TEXCOORD1;
+out vec4 vs_TEXCOORD2;
+out vec3 vs_TEXCOORD3;
+out vec3 vs_TEXCOORD4;
+out vec4 vs_TEXCOORD5;
+out vec4 vs_TEXCOORD7;
+flat out uint vs_SV_InstanceID0;
+flat out uint vs_BLENDINDICES0;
+vec4 u_xlat0;
+vec4 u_xlat1;
+vec4 u_xlat2;
+int u_xlati2;
+vec4 u_xlat3;
+vec3 u_xlat4;
+float u_xlat12;
+uint u_xlatu13;
+float u_xlat14;
+void main()
+{
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    u_xlat0.x = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[0].xyz);
+    u_xlat0.y = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[1].xyz);
+    u_xlat0.z = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[2].xyz);
+    u_xlat12 = dot(u_xlat0.xyz, u_xlat0.xyz);
+    u_xlat12 = max(u_xlat12, 1.17549435e-38);
+    u_xlat12 = inversesqrt(u_xlat12);
+    u_xlat0.xyz = vec3(u_xlat12) * u_xlat0.xyz;
+    u_xlat1.x = u_xlat0.y * u_xlat0.y;
+    u_xlat1.x = u_xlat0.x * u_xlat0.x + (-u_xlat1.x);
+    u_xlat2 = u_xlat0.yzzx * u_xlat0.xyzz;
+    u_xlat3.x = dot(unity_SHBr, u_xlat2);
+    u_xlat3.y = dot(unity_SHBg, u_xlat2);
+    u_xlat3.z = dot(unity_SHBb, u_xlat2);
+    u_xlat1.xyz = unity_SHC.xyz * u_xlat1.xxx + u_xlat3.xyz;
+    u_xlat0.w = 1.0;
+    u_xlat2.x = dot(unity_SHAr, u_xlat0);
+    u_xlat2.y = dot(unity_SHAg, u_xlat0);
+    u_xlat2.z = dot(unity_SHAb, u_xlat0);
+    vs_TEXCOORD3.xyz = u_xlat0.xyz;
+    u_xlat0.xyz = u_xlat1.xyz + u_xlat2.xyz;
+    vs_TEXCOORD1.xyz = max(u_xlat0.xyz, vec3(0.0, 0.0, 0.0));
+    u_xlat0 = _WaveAndDistance.yyyy * vec4(0.00600000005, 0.0199999996, 0.0199999996, 0.0500000007);
+    u_xlat0 = u_xlat0 * in_POSITION0.zzzz;
+    u_xlat1 = _WaveAndDistance.yyyy * vec4(0.0120000001, 0.0199999996, 0.0599999987, 0.0240000002);
+    u_xlat0 = in_POSITION0.xxxx * u_xlat1 + u_xlat0;
+    u_xlat0 = _WaveAndDistance.xxxx * vec4(1.20000005, 2.0, 1.60000002, 4.80000019) + u_xlat0;
+    u_xlat0 = fract(u_xlat0);
+    u_xlat0 = u_xlat0 * vec4(6.40884876, 6.40884876, 6.40884876, 6.40884876) + vec4(-3.14159274, -3.14159274, -3.14159274, -3.14159274);
+    u_xlat1 = u_xlat0 * u_xlat0;
+    u_xlat2 = u_xlat0 * u_xlat1;
+    u_xlat0 = u_xlat2 * vec4(-0.161616161, -0.161616161, -0.161616161, -0.161616161) + u_xlat0;
+    u_xlat2 = u_xlat1 * u_xlat2;
+    u_xlat1 = u_xlat1 * u_xlat2;
+    u_xlat0 = u_xlat2 * vec4(0.00833330024, 0.00833330024, 0.00833330024, 0.00833330024) + u_xlat0;
+    u_xlat0 = u_xlat1 * vec4(-0.000198409994, -0.000198409994, -0.000198409994, -0.000198409994) + u_xlat0;
+    u_xlat0 = u_xlat0 * u_xlat0;
+    u_xlat0 = u_xlat0 * u_xlat0;
+    u_xlat1.x = in_COLOR0.w * _WaveAndDistance.z;
+    u_xlat1 = u_xlat0 * u_xlat1.xxxx;
+    u_xlat0.x = dot(u_xlat0, vec4(0.674199879, 0.674199879, 0.269679934, 0.134839967));
+    u_xlat0.x = u_xlat0.x * 0.699999988;
+    u_xlat2.x = dot(u_xlat1, vec4(0.0240000002, 0.0399999991, -0.119999997, 0.0960000008));
+    u_xlat2.z = dot(u_xlat1, vec4(0.00600000005, 0.0199999996, -0.0199999996, 0.100000001));
+    u_xlat1.xz = (-u_xlat2.xz) * _WaveAndDistance.zz + in_POSITION0.xz;
+    u_xlat4.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat4.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat1.xxx + u_xlat4.xyz;
+    u_xlat4.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * u_xlat1.zzz + u_xlat4.xyz;
+    u_xlat4.xyz = u_xlat4.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    vs_TEXCOORD2.xyz = u_xlat4.xyz;
+    vs_TEXCOORD2.w = 32.0;
+    u_xlatu13 = uint(gl_InstanceID) & 1u;
+    u_xlat2.xyz = (-u_xlat4.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu13)].xyz;
+    u_xlat14 = dot(u_xlat2.xyz, u_xlat2.xyz);
+    u_xlat14 = max(u_xlat14, 1.17549435e-38);
+    u_xlat14 = inversesqrt(u_xlat14);
+    vs_TEXCOORD4.xyz = vec3(u_xlat14) * u_xlat2.xyz;
+    u_xlati2 = int(u_xlatu13) << 2;
+    u_xlat3 = u_xlat4.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati2 + 1)];
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati2] * u_xlat4.xxxx + u_xlat3;
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati2 + 2)] * u_xlat4.zzzz + u_xlat3;
+    u_xlat2 = u_xlat3 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati2 + 3)];
+    vs_TEXCOORD5.x = u_xlat2.z * unity_FogParams.x;
+    gl_Position = u_xlat2;
+    vs_TEXCOORD5.yzw = vec3(0.0, 0.0, 0.0);
+    u_xlat1.y = in_POSITION0.y;
+    u_xlat4.xyz = u_xlat1.xyz + (-_CameraPosition.xyz);
+    u_xlat4.x = dot(u_xlat4.xyz, u_xlat4.xyz);
+    u_xlat4.x = (-u_xlat4.x) + _WaveAndDistance.w;
+    u_xlat4.x = u_xlat4.x + u_xlat4.x;
+    vs_TEXCOORD7.w = u_xlat4.x * _CameraPosition.w;
+    vs_TEXCOORD7.w = clamp(vs_TEXCOORD7.w, 0.0, 1.0);
+    u_xlat4.xyz = _WavingTint.xyz + vec3(-0.5, -0.5, -0.5);
+    u_xlat0.xyz = u_xlat0.xxx * u_xlat4.xyz + vec3(0.5, 0.5, 0.5);
+    u_xlat0.xyz = u_xlat0.xyz * in_COLOR0.xyz;
+    vs_TEXCOORD7.xyz = u_xlat0.xyz + u_xlat0.xyz;
+    vs_SV_InstanceID0 =  uint(gl_InstanceID);
+    gl_Layer = int(u_xlatu13);
+    vs_BLENDINDICES0 = u_xlatu13;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass' failed.
+-------- Shader Universal Render Pipeline/Terrain/Lit compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 unity_OrthoParams;
+uniform 	vec4 unity_FogParams;
+UNITY_BINDING(1) uniform UnityPerDraw {
+	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
+	vec4 unity_LODFade;
+	vec4 unity_WorldTransformParams;
+	vec4 unity_LightData;
+	vec4 unity_LightIndices[2];
+	vec4 unity_ProbesOcclusion;
+	vec4 unity_SpecCube0_HDR;
+	vec4 unity_LightmapST;
+	vec4 unity_DynamicLightmapST;
+	vec4 unity_SHAr;
+	vec4 unity_SHAg;
+	vec4 unity_SHAb;
+	vec4 unity_SHBr;
+	vec4 unity_SHBg;
+	vec4 unity_SHBb;
+	vec4 unity_SHC;
+};
+UNITY_BINDING(2) uniform UnityStereoViewBuffer {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+UNITY_BINDING(3) uniform _Terrain {
+	float _NormalScale0;
+	float _NormalScale1;
+	float _NormalScale2;
+	float _NormalScale3;
+	float _Metallic0;
+	float _Metallic1;
+	float _Metallic2;
+	float _Metallic3;
+	float _Smoothness0;
+	float _Smoothness1;
+	float _Smoothness2;
+	float _Smoothness3;
+	vec4 _DiffuseRemapScale0;
+	vec4 _DiffuseRemapScale1;
+	vec4 _DiffuseRemapScale2;
+	vec4 _DiffuseRemapScale3;
+	vec4 _MaskMapRemapOffset0;
+	vec4 _MaskMapRemapOffset1;
+	vec4 _MaskMapRemapOffset2;
+	vec4 _MaskMapRemapOffset3;
+	vec4 _MaskMapRemapScale0;
+	vec4 _MaskMapRemapScale1;
+	vec4 _MaskMapRemapScale2;
+	vec4 _MaskMapRemapScale3;
+	vec4 _Control_ST;
+	vec4 _Control_TexelSize;
+	float _DiffuseHasAlpha0;
+	float _DiffuseHasAlpha1;
+	float _DiffuseHasAlpha2;
+	float _DiffuseHasAlpha3;
+	float _LayerHasMask0;
+	float _LayerHasMask1;
+	float _LayerHasMask2;
+	float _LayerHasMask3;
+	vec4 _Splat0_ST;
+	vec4 _Splat1_ST;
+	vec4 _Splat2_ST;
+	vec4 _Splat3_ST;
+	float _HeightTransition;
+	float _NumLayersCount;
+};
+in  vec4 in_POSITION0;
+in  vec3 in_NORMAL0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_TEXCOORD0;
+out vec4 vs_TEXCOORD1;
+out vec4 vs_TEXCOORD2;
+out vec4 vs_TEXCOORD3;
+out vec4 vs_TEXCOORD4;
+out vec4 vs_TEXCOORD5;
+out vec4 vs_TEXCOORD6;
+out vec3 vs_TEXCOORD7;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+int u_xlati1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec4 u_xlat4;
+vec4 u_xlat5;
+vec3 u_xlat6;
+vec3 u_xlat7;
+bool u_xlatb8;
+float u_xlat15;
+bool u_xlatb15;
+float u_xlat22;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlat7.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_POSITION0.xxx + u_xlat7.xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_POSITION0.zzz + u_xlat7.xyz;
+    u_xlat7.xyz = u_xlat7.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    u_xlati1 = int(u_xlatu0) << 2;
+    u_xlat2 = u_xlat7.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati1] * u_xlat7.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 2)] * u_xlat7.zzzz + u_xlat2;
+    u_xlat2 = u_xlat2 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 3)];
+    vs_TEXCOORD0.zw = in_TEXCOORD0.xy * unity_LightmapST.xy + unity_LightmapST.zw;
+    vs_TEXCOORD1.xy = in_TEXCOORD0.xy * _Splat0_ST.xy + _Splat0_ST.zw;
+    vs_TEXCOORD1.zw = in_TEXCOORD0.xy * _Splat1_ST.xy + _Splat1_ST.zw;
+    vs_TEXCOORD2.xy = in_TEXCOORD0.xy * _Splat2_ST.xy + _Splat2_ST.zw;
+    vs_TEXCOORD2.zw = in_TEXCOORD0.xy * _Splat3_ST.xy + _Splat3_ST.zw;
+    u_xlatb8 = unity_OrthoParams.w==0.0;
+    if(u_xlatb8){
+        u_xlat3.xyw = (-u_xlat7.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu0)].xyz;
+        u_xlat4.w = u_xlat3.x;
+        u_xlat5.w = u_xlat3.y;
+    } else {
+        u_xlat4.w = hlslcc_mtx4x4unity_StereoMatrixV[u_xlati1].z;
+        u_xlat5.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 1)].z;
+        u_xlat3.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 2)].z;
+    }
+    u_xlat1.xy = in_NORMAL0.yz * vec2(1.0, 0.0);
+    u_xlat1.xy = in_NORMAL0.zx * vec2(0.0, 1.0) + (-u_xlat1.xy);
+    u_xlatb15 = unity_WorldTransformParams.w>=0.0;
+    u_xlat15 = (u_xlatb15) ? 1.0 : -1.0;
+    u_xlat6.xyz = in_NORMAL0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_NORMAL0.xxx + u_xlat6.xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_NORMAL0.zzz + u_xlat6.xyz;
+    u_xlat22 = dot(u_xlat6.xyz, u_xlat6.xyz);
+    u_xlat22 = max(u_xlat22, 1.17549435e-38);
+    u_xlat22 = inversesqrt(u_xlat22);
+    u_xlat4.xyz = vec3(u_xlat22) * u_xlat6.xyz;
+    u_xlat6.xyz = u_xlat1.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat1.xyw = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat1.xxx + u_xlat6.xyz;
+    u_xlat6.x = dot(u_xlat1.xyw, u_xlat1.xyw);
+    u_xlat6.x = max(u_xlat6.x, 1.17549435e-38);
+    u_xlat6.x = inversesqrt(u_xlat6.x);
+    u_xlat5.xyz = u_xlat1.xyw * u_xlat6.xxx;
+    u_xlat1.xyw = u_xlat4.zxy * u_xlat5.yzx;
+    u_xlat1.xyw = u_xlat4.yzx * u_xlat5.zxy + (-u_xlat1.xyw);
+    u_xlat3.xyz = vec3(u_xlat15) * u_xlat1.xyw;
+    vs_TEXCOORD6.x = u_xlat2.z * unity_FogParams.x;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    vs_TEXCOORD3 = u_xlat4;
+    vs_TEXCOORD4 = u_xlat5;
+    vs_TEXCOORD5 = u_xlat3;
+    vs_TEXCOORD6.yzw = vec3(0.0, 0.0, 0.0);
+    gl_Position = u_xlat2;
+    vs_TEXCOORD7.xyz = u_xlat7.xyz;
+    gl_Layer = int(u_xlatu0);
+    vs_BLENDINDICES0 = u_xlatu0;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Universal Render Pipeline/Terrain/Lit:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Universal Render Pipeline/Terrain/Lit' failed.
+-------- Shader Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass) compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 unity_OrthoParams;
+uniform 	vec4 unity_FogParams;
+UNITY_BINDING(1) uniform UnityPerDraw {
+	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
+	vec4 unity_LODFade;
+	vec4 unity_WorldTransformParams;
+	vec4 unity_LightData;
+	vec4 unity_LightIndices[2];
+	vec4 unity_ProbesOcclusion;
+	vec4 unity_SpecCube0_HDR;
+	vec4 unity_LightmapST;
+	vec4 unity_DynamicLightmapST;
+	vec4 unity_SHAr;
+	vec4 unity_SHAg;
+	vec4 unity_SHAb;
+	vec4 unity_SHBr;
+	vec4 unity_SHBg;
+	vec4 unity_SHBb;
+	vec4 unity_SHC;
+};
+UNITY_BINDING(2) uniform UnityStereoViewBuffer {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+UNITY_BINDING(3) uniform _Terrain {
+	float _NormalScale0;
+	float _NormalScale1;
+	float _NormalScale2;
+	float _NormalScale3;
+	float _Metallic0;
+	float _Metallic1;
+	float _Metallic2;
+	float _Metallic3;
+	float _Smoothness0;
+	float _Smoothness1;
+	float _Smoothness2;
+	float _Smoothness3;
+	vec4 _DiffuseRemapScale0;
+	vec4 _DiffuseRemapScale1;
+	vec4 _DiffuseRemapScale2;
+	vec4 _DiffuseRemapScale3;
+	vec4 _MaskMapRemapOffset0;
+	vec4 _MaskMapRemapOffset1;
+	vec4 _MaskMapRemapOffset2;
+	vec4 _MaskMapRemapOffset3;
+	vec4 _MaskMapRemapScale0;
+	vec4 _MaskMapRemapScale1;
+	vec4 _MaskMapRemapScale2;
+	vec4 _MaskMapRemapScale3;
+	vec4 _Control_ST;
+	vec4 _Control_TexelSize;
+	float _DiffuseHasAlpha0;
+	float _DiffuseHasAlpha1;
+	float _DiffuseHasAlpha2;
+	float _DiffuseHasAlpha3;
+	float _LayerHasMask0;
+	float _LayerHasMask1;
+	float _LayerHasMask2;
+	float _LayerHasMask3;
+	vec4 _Splat0_ST;
+	vec4 _Splat1_ST;
+	vec4 _Splat2_ST;
+	vec4 _Splat3_ST;
+	float _HeightTransition;
+	float _NumLayersCount;
+};
+in  vec4 in_POSITION0;
+in  vec3 in_NORMAL0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_TEXCOORD0;
+out vec4 vs_TEXCOORD1;
+out vec4 vs_TEXCOORD2;
+out vec4 vs_TEXCOORD3;
+out vec4 vs_TEXCOORD4;
+out vec4 vs_TEXCOORD5;
+out vec4 vs_TEXCOORD6;
+out vec3 vs_TEXCOORD7;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+int u_xlati1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec4 u_xlat4;
+vec4 u_xlat5;
+vec3 u_xlat6;
+vec3 u_xlat7;
+bool u_xlatb8;
+float u_xlat15;
+bool u_xlatb15;
+float u_xlat22;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlat7.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_POSITION0.xxx + u_xlat7.xyz;
+    u_xlat7.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_POSITION0.zzz + u_xlat7.xyz;
+    u_xlat7.xyz = u_xlat7.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    u_xlati1 = int(u_xlatu0) << 2;
+    u_xlat2 = u_xlat7.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati1] * u_xlat7.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 2)] * u_xlat7.zzzz + u_xlat2;
+    u_xlat2 = u_xlat2 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 3)];
+    vs_TEXCOORD0.zw = in_TEXCOORD0.xy * unity_LightmapST.xy + unity_LightmapST.zw;
+    vs_TEXCOORD1.xy = in_TEXCOORD0.xy * _Splat0_ST.xy + _Splat0_ST.zw;
+    vs_TEXCOORD1.zw = in_TEXCOORD0.xy * _Splat1_ST.xy + _Splat1_ST.zw;
+    vs_TEXCOORD2.xy = in_TEXCOORD0.xy * _Splat2_ST.xy + _Splat2_ST.zw;
+    vs_TEXCOORD2.zw = in_TEXCOORD0.xy * _Splat3_ST.xy + _Splat3_ST.zw;
+    u_xlatb8 = unity_OrthoParams.w==0.0;
+    if(u_xlatb8){
+        u_xlat3.xyw = (-u_xlat7.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu0)].xyz;
+        u_xlat4.w = u_xlat3.x;
+        u_xlat5.w = u_xlat3.y;
+    } else {
+        u_xlat4.w = hlslcc_mtx4x4unity_StereoMatrixV[u_xlati1].z;
+        u_xlat5.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 1)].z;
+        u_xlat3.w = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 2)].z;
+    }
+    u_xlat1.xy = in_NORMAL0.yz * vec2(1.0, 0.0);
+    u_xlat1.xy = in_NORMAL0.zx * vec2(0.0, 1.0) + (-u_xlat1.xy);
+    u_xlatb15 = unity_WorldTransformParams.w>=0.0;
+    u_xlat15 = (u_xlatb15) ? 1.0 : -1.0;
+    u_xlat6.xyz = in_NORMAL0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_NORMAL0.xxx + u_xlat6.xyz;
+    u_xlat6.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_NORMAL0.zzz + u_xlat6.xyz;
+    u_xlat22 = dot(u_xlat6.xyz, u_xlat6.xyz);
+    u_xlat22 = max(u_xlat22, 1.17549435e-38);
+    u_xlat22 = inversesqrt(u_xlat22);
+    u_xlat4.xyz = vec3(u_xlat22) * u_xlat6.xyz;
+    u_xlat6.xyz = u_xlat1.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat1.xyw = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat1.xxx + u_xlat6.xyz;
+    u_xlat6.x = dot(u_xlat1.xyw, u_xlat1.xyw);
+    u_xlat6.x = max(u_xlat6.x, 1.17549435e-38);
+    u_xlat6.x = inversesqrt(u_xlat6.x);
+    u_xlat5.xyz = u_xlat1.xyw * u_xlat6.xxx;
+    u_xlat1.xyw = u_xlat4.zxy * u_xlat5.yzx;
+    u_xlat1.xyw = u_xlat4.yzx * u_xlat5.zxy + (-u_xlat1.xyw);
+    u_xlat3.xyz = vec3(u_xlat15) * u_xlat1.xyw;
+    vs_TEXCOORD6.x = u_xlat2.z * unity_FogParams.x;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    vs_TEXCOORD3 = u_xlat4;
+    vs_TEXCOORD4 = u_xlat5;
+    vs_TEXCOORD5 = u_xlat3;
+    vs_TEXCOORD6.yzw = vec3(0.0, 0.0, 0.0);
+    gl_Position = u_xlat2;
+    vs_TEXCOORD7.xyz = u_xlat7.xyz;
+    gl_Layer = int(u_xlatu0);
+    vs_BLENDINDICES0 = u_xlatu0;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass):
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' failed.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.72 ms.
+Unloading 3434 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 306.9 MB.
+System memory in use after: 307.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4069.
+Total: 6.406728 ms (FindLiveObjects: 0.442748 ms CreateObjectMapping: 0.208838 ms MarkObjects: 5.720115 ms  DeleteObjects: 0.033460 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1325.443691 seconds.
+  path: Assets/Materials/planMat.mat
+  artifactKey: Guid(5143ec0225c934761a1cfefb2070ff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/planMat.mat using Guid(5143ec0225c934761a1cfefb2070ff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f32c9895bda816fab65d726d33c8cfd') in 1.214539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.009852 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1fccef896d48891410691dfde716e5') in 0.006771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.356308 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(3743a9239f0194d78867d0d8672646f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(3743a9239f0194d78867d0d8672646f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d1a315b2bcf497618ab2e7baabce6c') in 0.050439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1565.671802 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer
+  artifactKey: Guid(d23200da1a36243839b26a4306df5e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer using Guid(d23200da1a36243839b26a4306df5e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291df724d5005b241b3a994dcd055e88') in 0.937191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3811.937356 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(3743a9239f0194d78867d0d8672646f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(3743a9239f0194d78867d0d8672646f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df56b8ad865e592932ec66172fa48d15') in 1.351897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1520.826216 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(3743a9239f0194d78867d0d8672646f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(3743a9239f0194d78867d0d8672646f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71c2d9508bceb65574dea523ef26a74') in 0.314248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1379.375291 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/PT_TerrainLK.asset
+  artifactKey: Guid(8a2911ae5d2323a4e860fe4a2c59bfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/PT_TerrainLK.asset using Guid(8a2911ae5d2323a4e860fe4a2c59bfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f05f2940153d3c8f06ae06077706ae1') in 0.644187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain.asset
+  artifactKey: Guid(58a654d142177b2489c7c8813307bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain.asset using Guid(58a654d142177b2489c7c8813307bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4045906b4424d9a90f795cd4217f999a') in 0.171404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain 3.asset
+  artifactKey: Guid(552d72ca20071a146bb4ae2ac3798fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain 3.asset using Guid(552d72ca20071a146bb4ae2ac3798fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c17bc9b06cb3dea0c2f8638cdf28d1') in 0.294355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain 6.asset
+  artifactKey: Guid(bf4db176f59051d4385692a050c6e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain 6.asset using Guid(bf4db176f59051d4385692a050c6e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f60af3106f4bc8fb23ab2810be16c4') in 0.135489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain 4.asset
+  artifactKey: Guid(a16454729cb2a9a47b44afa70a8bea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain 4.asset using Guid(a16454729cb2a9a47b44afa70a8bea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51f23a30e68757532c77c7fa2cb7a32') in 0.054301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain 5.asset
+  artifactKey: Guid(1a48e1530e190c643be92568951321e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain 5.asset using Guid(1a48e1530e190c643be92568951321e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016fba439ab84c68a7705f15c2cc9c4c') in 0.061208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain 2.asset
+  artifactKey: Guid(c435d06e5b4921a4ab2b334c3d3e39b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain 2.asset using Guid(c435d06e5b4921a4ab2b334c3d3e39b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dd488115197a27fd1e6f8d9cd5b3ca') in 0.119838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/ATSG_TerrainSample.asset
+  artifactKey: Guid(af7312ffb38b4c64b846a53b785313e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/ATSG_TerrainSample.asset using Guid(af7312ffb38b4c64b846a53b785313e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320194e03c3ba9081d09ae0f8b01b584') in 0.110654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1452.685853 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Day.mat
+  artifactKey: Guid(766f970160b785b45806e363a24103e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Day.mat using Guid(766f970160b785b45806e363a24103e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb253c5a4465723b55baf5b1dd3c5dbd') in 1.358365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Plane.mat
+  artifactKey: Guid(779ff5660ac1a1341b9446c45bc59607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Plane.mat using Guid(779ff5660ac1a1341b9446c45bc59607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9951cddb18a278bb91880501703a8ed4') in 0.132887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (15).mat
+  artifactKey: Guid(00379ebe02669b74e8060c1c6b458fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (15).mat using Guid(00379ebe02669b74e8060c1c6b458fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd72382534eb125d7ac6eb1e74ff10a') in 0.157266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall.mat
+  artifactKey: Guid(c278e146e2886b341b396bfc3cc71966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall.mat using Guid(c278e146e2886b341b396bfc3cc71966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caa6afc78dd926dc2bb667949d24773') in 0.047383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (31).mat
+  artifactKey: Guid(87bc55b0873f55e41b928b94cfbe6db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (31).mat using Guid(87bc55b0873f55e41b928b94cfbe6db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c914490720a57c2a0863c25daa80779') in 0.028788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (22).mat
+  artifactKey: Guid(02d672bfe24484e4482c958654aa51f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (22).mat using Guid(02d672bfe24484e4482c958654aa51f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d3014277caf4d4ba5b65708f625aea') in 0.071962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (6).mat
+  artifactKey: Guid(08ef62b969aab0540a9f2e4819167368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (6).mat using Guid(08ef62b969aab0540a9f2e4819167368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebf939965862906e2d7a782b91b88a8') in 0.040096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (29).mat
+  artifactKey: Guid(b39366051ecefe946bc13c623a9c4aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (29).mat using Guid(b39366051ecefe946bc13c623a9c4aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3529a75dea36b5775d10326f264918') in 0.031227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037746 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (30).mat
+  artifactKey: Guid(01a86c5a05ee60c479a65d48adf5624e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (30).mat using Guid(01a86c5a05ee60c479a65d48adf5624e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece01de4ef22513d8a9b8afa587e88ce') in 0.037516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Night.mat
+  artifactKey: Guid(a133f63705bd27d42851eb839dd5fa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Night.mat using Guid(a133f63705bd27d42851eb839dd5fa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02e9d6946937f8239d89b1bb8b07ca0') in 0.068354 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000375 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Input Actions.inputactions
-  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c014763df28c014302c8a7d3d35371') in 0.052873 seconds 
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (13).mat
+  artifactKey: Guid(29ce6482481fa35459bacdd412ac60ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (13).mat using Guid(29ce6482481fa35459bacdd412ac60ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94178f3827e382214f27d080cad1f404') in 0.044566 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Continuous Turn.preset
-  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ccefdc474ceb738a43be42fa0dd200') in 0.008260 seconds 
+  Time since last request: 0.000435 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (32).mat
+  artifactKey: Guid(587daea4dfebae444b996e85e5c89aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (32).mat using Guid(587daea4dfebae444b996e85e5c89aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff01dbdfeb6f9f0c5166fae09f47949b') in 0.049057 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Right Controller.preset
-  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95707fcd6162d51b579bd0bf92def4f') in 0.007222 seconds 
+  Time since last request: 0.000397 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (8).mat
+  artifactKey: Guid(f430c84f32a5850499b42d485118ec6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (8).mat using Guid(f430c84f32a5850499b42d485118ec6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83da8ec758b3c137b7112e23a00f6eed') in 0.046919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (28).mat
+  artifactKey: Guid(39db1ca9b8c10cd40a2a14aed376cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (28).mat using Guid(39db1ca9b8c10cd40a2a14aed376cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74de2eb9bc5e7da4987d883824903a82') in 0.020592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksD.mat
+  artifactKey: Guid(9e40fe63acdcd6941917014e34ba19bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksD.mat using Guid(9e40fe63acdcd6941917014e34ba19bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909984177631c3854d8d13e19122e3e5') in 0.029568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (3).mat
+  artifactKey: Guid(640ab8a269ee0234f9e2de274db60fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (3).mat using Guid(640ab8a269ee0234f9e2de274db60fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67bd04f3ab6e3836a4d187f8ab4ba2b') in 0.037957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (19).mat
+  artifactKey: Guid(c81c6cca08418a44f94719559374d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (19).mat using Guid(c81c6cca08418a44f94719559374d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010edf8fc18507ac68441975e8432b3a') in 0.023623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Ground.mat
+  artifactKey: Guid(8d326828e234122429e5ad716f81e647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Ground.mat using Guid(8d326828e234122429e5ad716f81e647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca015170efb92c89069ba592fc5236d') in 0.021152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (2).mat
+  artifactKey: Guid(bddd73eb535bb654d9eb3da00f24c7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (2).mat using Guid(bddd73eb535bb654d9eb3da00f24c7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e0c56e9f78693fa9d0a3122c316f7d') in 0.038415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksE.mat
+  artifactKey: Guid(fc23c20398e523a419f59815ed456c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksE.mat using Guid(fc23c20398e523a419f59815ed456c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f40252253e11c58e5b6660b9fb5f073') in 0.048916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (27).mat
+  artifactKey: Guid(999f7008f037ee343b5dc41af9674fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (27).mat using Guid(999f7008f037ee343b5dc41af9674fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd4777417241dbb39d8c5a31bc5b19d') in 0.037717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowB.mat
+  artifactKey: Guid(c43cd70eae1ab1348a68300debb62c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowB.mat using Guid(c43cd70eae1ab1348a68300debb62c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a8a7fe7f8344e42beabe96eed4b8c5') in 0.063395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Vegetation.mat
+  artifactKey: Guid(419f2b72f0c939447a816ab8743b2a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Vegetation.mat using Guid(419f2b72f0c939447a816ab8743b2a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808865094d61d8c07016a472eb619494') in 0.028671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (11).mat
+  artifactKey: Guid(c2e687bde7256d840b017e4441ff68cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (11).mat using Guid(c2e687bde7256d840b017e4441ff68cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca2baf82c25981dac31dcc9248fcae3') in 0.030289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Mushrooms.mat
+  artifactKey: Guid(3ba41fdcb68bd8d47adca13ea876b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Mushrooms.mat using Guid(3ba41fdcb68bd8d47adca13ea876b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bf862637e1979f815d7f0e99deed79') in 0.034433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (5).mat
+  artifactKey: Guid(94dce9bbd67ed6b439e02ee018ba8456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (5).mat using Guid(94dce9bbd67ed6b439e02ee018ba8456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73409a2ed3232edc0c67df9edeabe48f') in 0.052547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksA.mat
+  artifactKey: Guid(0f5b783800577ea4693b5e01d66f9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksA.mat using Guid(0f5b783800577ea4693b5e01d66f9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f3d033331032d512ae7f9833a2ed28') in 0.050645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (1).mat
+  artifactKey: Guid(3965c05904ee2f8419083d07642ef925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (1).mat using Guid(3965c05904ee2f8419083d07642ef925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b85319484bd75fb12774d830971dc7') in 0.040374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (20).mat
+  artifactKey: Guid(12623d01e183a764cb65069a1170755f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (20).mat using Guid(12623d01e183a764cb65069a1170755f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27743eea893c3f7b2ee17132c62caae1') in 0.042848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (24).mat
+  artifactKey: Guid(c415515ea9d45324b9609c1e89469611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (24).mat using Guid(c415515ea9d45324b9609c1e89469611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e68b3c05c55e3e862e41edeb5521351') in 0.034726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (14).mat
+  artifactKey: Guid(b91fdf682f7f7d545b64a106df5b0433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (14).mat using Guid(b91fdf682f7f7d545b64a106df5b0433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dbe8b6975009eb5e2272b55a71cf24') in 0.051018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (10).mat
+  artifactKey: Guid(02655825da2de104b878cee701087304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (10).mat using Guid(02655825da2de104b878cee701087304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e1c6106e6cfaa5ec6e9de247855ae4') in 0.028464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (16).mat
+  artifactKey: Guid(aa1e97473fce8264e99404431d77ad46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (16).mat using Guid(aa1e97473fce8264e99404431d77ad46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbb2db22892773f542e084586d07598') in 0.032860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (9).mat
+  artifactKey: Guid(cffce43df0decfe4c9a99194253f022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (9).mat using Guid(cffce43df0decfe4c9a99194253f022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faceaf4e03238a835842e123fa1b875e') in 0.035083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (26).mat
+  artifactKey: Guid(e331fd61c80571746b5cccebaf09ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (26).mat using Guid(e331fd61c80571746b5cccebaf09ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b1d88302146a552ccdc74e57ed6cf5') in 0.020552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (33).mat
+  artifactKey: Guid(53ed1e05d6bfa5741b19efe9faae3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (33).mat using Guid(53ed1e05d6bfa5741b19efe9faae3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec204d4b67d1354dfef7f664f02882f6') in 0.019799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (18).mat
+  artifactKey: Guid(d1269d1adc88c5442a0a2cf4846056f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (18).mat using Guid(d1269d1adc88c5442a0a2cf4846056f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d997055fceab1a077dcf3bb21f7c88') in 0.040202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksC.mat
+  artifactKey: Guid(469b49ab89e73904fbf86e5fa989fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksC.mat using Guid(469b49ab89e73904fbf86e5fa989fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d185a31e2f495559995bd251bbfbdd7') in 0.032282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowA.mat
+  artifactKey: Guid(3ffbe2acb6e7bba47974171cc39497b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowA.mat using Guid(3ffbe2acb6e7bba47974171cc39497b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6471ebbc43deeef5cdc7f7e8c366d977') in 0.034025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (21).mat
+  artifactKey: Guid(85c91b155642606458b213f1c68a5328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (21).mat using Guid(85c91b155642606458b213f1c68a5328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624388bde94dd8097ec00a6f7b3d868a') in 0.024088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (34).mat
+  artifactKey: Guid(4811b3b433d8f8246a1603f1816609a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (34).mat using Guid(4811b3b433d8f8246a1603f1816609a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4269da00c28e94efe408801c318a401') in 0.020554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksB.mat
+  artifactKey: Guid(17a6b10a6ad589045809614dcb8d0c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksB.mat using Guid(17a6b10a6ad589045809614dcb8d0c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf245bd22cb01d8b0d8820467d50c8f') in 0.038426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (23).mat
+  artifactKey: Guid(b534da835a11eea49b7be522a668fad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (23).mat using Guid(b534da835a11eea49b7be522a668fad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7fb4c54aabefc43e3022dc4112cd5a2') in 0.047160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (12).mat
+  artifactKey: Guid(52627172691059e47882993358ec0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (12).mat using Guid(52627172691059e47882993358ec0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ba0f2060711aa143afb537c5fc1a12') in 0.016631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (4).mat
+  artifactKey: Guid(45cdef92231fc1947be7f03646a05c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (4).mat using Guid(45cdef92231fc1947be7f03646a05c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2565e0b907b534b98a898c8a868e0f7') in 0.054881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (17).mat
+  artifactKey: Guid(05aab9f0e98d6d445899f102a8bc7add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (17).mat using Guid(05aab9f0e98d6d445899f102a8bc7add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382fa67c4c1d272816c9e7950f59a42e') in 0.120983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (7).mat
+  artifactKey: Guid(d14aec11236bce8438eda03e6e0ee731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (7).mat using Guid(d14aec11236bce8438eda03e6e0ee731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6603f342b43b2306c84bdcb21d8a48b9') in 0.034497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (25).mat
+  artifactKey: Guid(ffd49f52b7cb1494c8550e849d5c0fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (25).mat using Guid(ffd49f52b7cb1494c8550e849d5c0fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedfcb406315cce570727d08763abc21') in 0.026402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowC.mat
+  artifactKey: Guid(387ebe65256a78f4c8fff4e206a81715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowC.mat using Guid(387ebe65256a78f4c8fff4e206a81715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28e8ae5d79510d49c622d9ffc63acb8') in 0.060460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.667123 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(3743a9239f0194d78867d0d8672646f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(3743a9239f0194d78867d0d8672646f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9d4d9ab7083e2e4dfe50463bfaa9ec') in 0.664852 seconds 
