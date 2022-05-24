@@ -22,16 +22,12 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60549
+57748
 Successfully changed project path to: /Users/admin/Desktop/vrProject/VR/vrProject
 /Users/admin/Desktop/vrProject/VR/vrProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 206.76 ms, found 7 plugins.
-Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Symbol not found: ____chkstk_darwin
-  Referenced from: Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer (which was built for Mac OS X 10.15)
-  Expected in: /usr/lib/libSystem.B.dylib
- in Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
-Preloading 1 native plugins for Editor in 1.19 ms.
+Refreshing native plugins compatible for Editor in 261.76 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 30.64 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/admin/Desktop/vrProject/VR/vrProject/Assets
@@ -41,101 +37,92 @@ Vendor:   ATI Technologies Inc.
 Version:  3.3 ATI-10.4.14
 GLES:     0
  GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shading_language_include GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable GL_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
-OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle 335828480
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle 646170624
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56874
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56394
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001049 seconds.
+Registered in 0.006635 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 192.81 ms, found 7 plugins.
-Plugins: Couldn't open /Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Symbol not found: ____chkstk_darwin
-  Referenced from: /Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer (which was built for Mac OS X 10.15)
-  Expected in: /usr/lib/libSystem.B.dylib
- in /Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
-Preloading 1 native plugins for Editor in 0.91 ms.
+Refreshing native plugins compatible for Editor in 149.57 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.78 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.212 seconds
+- Completed reload, in  1.445 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1212ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (1445ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1007ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (1072ms)
+			LoadAssemblies (241ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
+			SetupTypeCache (374ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (469ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (451ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (194ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (150ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005196 seconds.
+Registered in 0.013332 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 192.06 ms, found 7 plugins.
-Plugins: Couldn't open /Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Symbol not found: ____chkstk_darwin
-  Referenced from: /Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer (which was built for Mac OS X 10.15)
-  Expected in: /usr/lib/libSystem.B.dylib
- in /Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
-Preloading 1 native plugins for Editor in 0.90 ms.
+Refreshing native plugins compatible for Editor in 145.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.75 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.509 seconds
+- Completed reload, in  2.693 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2511ms)
-		BeginReloadAssembly (248ms)
+	ReloadAssembly (2704ms)
+		BeginReloadAssembly (298ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (2161ms)
-			LoadAssemblies (136ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (2277ms)
+			LoadAssemblies (315ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (737ms)
+			SetupTypeCache (715ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (156ms)
-			SetupLoadedEditorAssemblies (895ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (893ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (193ms)
-				BeforeProcessingInitializeOnLoad (202ms)
-				ProcessInitializeOnLoadAttributes (476ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (504ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.052223 seconds.
+Validating Project structure ... 0.008976 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.097514 seconds.
+Upgrading shader files ...0.011033 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -144,7 +131,6 @@ Application.AssetDatabase.Refresh Start
 Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 -------- Shader Sprites/Default compilation failed
@@ -709,152 +695,6 @@ vertex shader
 GLSL compilation failed for shader Hidden/Universal Render Pipeline/CopyDepth:
 ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
 Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/CopyDepth' failed.
--------- Shader Universal Render Pipeline/Lit compilation failed
-#version 150
-#extension GL_ARB_explicit_attrib_location : require
-#ifdef GL_ARB_shader_bit_encoding
-#extension GL_ARB_shader_bit_encoding : enable
-#endif
-#extension GL_AMD_vertex_shader_layer : require
-#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
-#if HLSLCC_ENABLE_UNIFORM_BUFFERS
-#define UNITY_UNIFORM
-#else
-#define UNITY_UNIFORM uniform
-#endif
-#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
-#if UNITY_SUPPORTS_UNIFORM_LOCATION
-#define UNITY_LOCATION(x) layout(location = x)
-#define UNITY_BINDING(x) layout(binding = x, std140)
-#else
-#define UNITY_LOCATION(x)
-#define UNITY_BINDING(x) layout(std140)
-#endif
-uniform 	vec4 unity_OrthoParams;
-UNITY_BINDING(0) uniform UnityPerDraw {
-	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
-	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
-	vec4 unity_LODFade;
-	vec4 unity_WorldTransformParams;
-	vec4 unity_LightData;
-	vec4 unity_LightIndices[2];
-	vec4 unity_ProbesOcclusion;
-	vec4 unity_SpecCube0_HDR;
-	vec4 unity_LightmapST;
-	vec4 unity_DynamicLightmapST;
-	vec4 unity_SHAr;
-	vec4 unity_SHAg;
-	vec4 unity_SHAb;
-	vec4 unity_SHBr;
-	vec4 unity_SHBg;
-	vec4 unity_SHBb;
-	vec4 unity_SHC;
-};
-UNITY_BINDING(1) uniform UnityStereoViewBuffer {
-	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
-	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
-	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
-	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
-	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
-	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
-	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
-	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
-	vec3 unity_StereoWorldSpaceCameraPos[2];
-	vec4 unity_StereoScaleOffset[2];
-};
-UNITY_BINDING(2) uniform UnityPerMaterial {
-	vec4 _BaseMap_ST;
-	vec4 _DetailAlbedoMap_ST;
-	vec4 _BaseColor;
-	vec4 _SpecColor;
-	vec4 _EmissionColor;
-	float _Cutoff;
-	float _Smoothness;
-	float _Metallic;
-	float _BumpScale;
-	float _Parallax;
-	float _OcclusionStrength;
-	float _ClearCoatMask;
-	float _ClearCoatSmoothness;
-	float _DetailAlbedoMapScale;
-	float _DetailNormalMapScale;
-	float _Surface;
-};
-in  vec4 in_POSITION0;
-in  vec3 in_NORMAL0;
-in  vec2 in_TEXCOORD0;
-out vec2 vs_TEXCOORD0;
-out vec3 vs_TEXCOORD1;
-out vec3 vs_TEXCOORD2;
-out vec3 vs_TEXCOORD3;
-out vec3 vs_TEXCOORD5;
-out vec4 vs_TEXCOORD6;
-flat out uint vs_SV_InstanceID0;
-flat out uint vs_BLENDINDICES0;
-uint u_xlatu0;
-vec3 u_xlat1;
-int u_xlati1;
-vec4 u_xlat2;
-vec4 u_xlat3;
-vec3 u_xlat4;
-vec3 u_xlat5;
-float u_xlat6;
-bool u_xlatb6;
-float u_xlat16;
-void main()
-{
-    u_xlatu0 = uint(gl_InstanceID) & 1u;
-    u_xlat5.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
-    u_xlat5.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_POSITION0.xxx + u_xlat5.xyz;
-    u_xlat5.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_POSITION0.zzz + u_xlat5.xyz;
-    u_xlat5.xyz = u_xlat5.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
-    u_xlati1 = int(u_xlatu0) << 2;
-    u_xlat2 = u_xlat5.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 1)];
-    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati1] * u_xlat5.xxxx + u_xlat2;
-    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 2)] * u_xlat5.zzzz + u_xlat2;
-    gl_Position = u_xlat2 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 3)];
-    u_xlat2.x = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[0].xyz);
-    u_xlat2.y = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[1].xyz);
-    u_xlat2.z = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[2].xyz);
-    u_xlat6 = dot(u_xlat2.xyz, u_xlat2.xyz);
-    u_xlat6 = max(u_xlat6, 1.17549435e-38);
-    u_xlat6 = inversesqrt(u_xlat6);
-    u_xlat2.xyz = vec3(u_xlat6) * u_xlat2.xyz;
-    u_xlatb6 = unity_OrthoParams.w==0.0;
-    if(u_xlatb6){
-        vs_TEXCOORD5.xyz = (-u_xlat5.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu0)].xyz;
-    } else {
-        vs_TEXCOORD5.x = hlslcc_mtx4x4unity_StereoMatrixV[u_xlati1].z;
-        vs_TEXCOORD5.y = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 1)].z;
-        vs_TEXCOORD5.z = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 2)].z;
-    }
-    vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _BaseMap_ST.xy + _BaseMap_ST.zw;
-    u_xlat2.w = 1.0;
-    u_xlat1.x = dot(unity_SHAr, u_xlat2);
-    u_xlat1.y = dot(unity_SHAg, u_xlat2);
-    u_xlat1.z = dot(unity_SHAb, u_xlat2);
-    u_xlat3 = u_xlat2.yzzx * u_xlat2.xyzz;
-    u_xlat4.x = dot(unity_SHBr, u_xlat3);
-    u_xlat4.y = dot(unity_SHBg, u_xlat3);
-    u_xlat4.z = dot(unity_SHBb, u_xlat3);
-    u_xlat16 = u_xlat2.y * u_xlat2.y;
-    u_xlat16 = u_xlat2.x * u_xlat2.x + (-u_xlat16);
-    u_xlat3.xyz = unity_SHC.xyz * vec3(u_xlat16) + u_xlat4.xyz;
-    u_xlat1.xyz = u_xlat1.xyz + u_xlat3.xyz;
-    vs_TEXCOORD1.xyz = max(u_xlat1.xyz, vec3(0.0, 0.0, 0.0));
-    vs_TEXCOORD6 = vec4(0.0, 0.0, 0.0, 0.0);
-    vs_TEXCOORD2.xyz = u_xlat5.xyz;
-    vs_TEXCOORD3.xyz = u_xlat2.xyz;
-    vs_SV_InstanceID0 =  uint(gl_InstanceID);
-    gl_Layer = int(u_xlatu0);
-    vs_BLENDINDICES0 = u_xlatu0;
-    return;
-}
--------- failed compiling:
-vertex shader
-GLSL compilation failed for shader Universal Render Pipeline/Lit:
-ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
-Note: Creation of internal variant of shader 'Universal Render Pipeline/Lit' failed.
 -------- Shader Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass compilation failed
 #version 150
 #extension GL_ARB_explicit_attrib_location : require
@@ -1387,19 +1227,603 @@ Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/T
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 2.19 ms, found 7 plugins.
-Plugins: Couldn't open /Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Symbol not found: ____chkstk_darwin
-  Referenced from: /Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer (which was built for Mac OS X 10.15)
-  Expected in: /usr/lib/libSystem.B.dylib
- in /Users/admin/Desktop/vrProject/VR/vrProject/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
-Preloading 1 native plugins for Editor in 0.93 ms.
-Unloading 4978 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 364.1 MB.
-System memory in use after: 364.3 MB.
+-------- Shader Skybox/Procedural compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _WorldSpaceLightPos0;
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 _LightColor0;
+uniform 	float _Exposure;
+uniform 	vec3 _GroundColor;
+uniform 	vec3 _SkyTint;
+uniform 	float _AtmosphereThickness;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+out vec3 vs_TEXCOORD0;
+out vec3 vs_TEXCOORD1;
+out vec3 vs_TEXCOORD2;
+out vec3 vs_TEXCOORD3;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+bool u_xlatb1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec3 u_xlat4;
+vec4 u_xlat5;
+vec3 u_xlat6;
+vec3 u_xlat7;
+int u_xlati7;
+float u_xlat8;
+vec3 u_xlat9;
+float u_xlat15;
+vec2 u_xlat16;
+float u_xlat22;
+float u_xlat23;
+float u_xlat24;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlati7 = int(u_xlatu0) << 2;
+    u_xlat1 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat1 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat1;
+    u_xlat1 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat1;
+    u_xlat2 = u_xlat1 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlat3 = u_xlat2.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 1)];
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati7] * u_xlat2.xxxx + u_xlat3;
+    u_xlat3 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 2)] * u_xlat2.zzzz + u_xlat3;
+    gl_Position = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati7 + 3)] * u_xlat2.wwww + u_xlat3;
+    u_xlat2 = log2(vec4(_SkyTint.x, _SkyTint.y, _SkyTint.z, _AtmosphereThickness));
+    u_xlat2 = u_xlat2 * vec4(0.454545468, 0.454545468, 0.454545468, 2.5);
+    u_xlat2 = exp2(u_xlat2);
+    u_xlat7.xyz = (-u_xlat2.xyz) + vec3(1.0, 1.0, 1.0);
+    u_xlat7.xyz = u_xlat7.xyz * vec3(0.300000012, 0.300000042, 0.300000012) + vec3(0.5, 0.419999987, 0.324999988);
+    u_xlat7.xyz = u_xlat7.xyz * u_xlat7.xyz;
+    u_xlat7.xyz = u_xlat7.xyz * u_xlat7.xyz;
+    u_xlat7.xyz = vec3(1.0, 1.0, 1.0) / u_xlat7.xyz;
+    u_xlat2.xy = u_xlat2.ww * vec2(0.049999997, 0.0314159282);
+    u_xlat22 = dot(u_xlat1.xyz, u_xlat1.xyz);
+    u_xlat22 = inversesqrt(u_xlat22);
+    u_xlat3.xyz = vec3(u_xlat22) * u_xlat1.xyz;
+    u_xlatb1 = u_xlat3.y>=0.0;
+    if(u_xlatb1){
+        u_xlat1.x = u_xlat3.y * u_xlat3.y + 0.0506249666;
+        u_xlat1.x = sqrt(u_xlat1.x);
+        u_xlat1.x = (-u_xlat1.y) * u_xlat22 + u_xlat1.x;
+        u_xlat8 = (-u_xlat3.y) * 1.0 + 1.0;
+        u_xlat15 = u_xlat8 * 5.25 + -6.80000019;
+        u_xlat15 = u_xlat8 * u_xlat15 + 3.82999992;
+        u_xlat15 = u_xlat8 * u_xlat15 + 0.458999991;
+        u_xlat8 = u_xlat8 * u_xlat15 + -0.00286999997;
+        u_xlat8 = u_xlat8 * 1.44269502;
+        u_xlat1.y = exp2(u_xlat8);
+        u_xlat1.xyz = u_xlat1.xyx * vec3(0.5, 0.246031836, 20.0);
+        u_xlat4.xyz = u_xlat1.xxx * u_xlat3.xyz;
+        u_xlat4.xyz = u_xlat4.xyz * vec3(0.5, 0.5, 0.5) + vec3(0.0, 1.00010002, 0.0);
+        u_xlat22 = dot(u_xlat4.xyz, u_xlat4.xyz);
+        u_xlat22 = sqrt(u_xlat22);
+        u_xlat16.x = (-u_xlat22) + 1.0;
+        u_xlat16.x = u_xlat16.x * 230.831207;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat23 = dot(_WorldSpaceLightPos0.xyz, u_xlat4.xyz);
+        u_xlat23 = u_xlat23 / u_xlat22;
+        u_xlat24 = dot(u_xlat3.xyz, u_xlat4.xyz);
+        u_xlat22 = u_xlat24 / u_xlat22;
+        u_xlat23 = (-u_xlat23) + 1.0;
+        u_xlat24 = u_xlat23 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat23 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat23 * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat23 * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat22 = (-u_xlat22) + 1.0;
+        u_xlat24 = u_xlat22 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat22 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat22 * u_xlat24 + 0.458999991;
+        u_xlat22 = u_xlat22 * u_xlat24 + -0.00286999997;
+        u_xlat22 = u_xlat22 * 1.44269502;
+        u_xlat22 = exp2(u_xlat22);
+        u_xlat22 = u_xlat22 * 0.25;
+        u_xlat22 = u_xlat23 * 0.25 + (-u_xlat22);
+        u_xlat22 = u_xlat16.x * u_xlat22 + u_xlat1.y;
+        u_xlat22 = max(u_xlat22, 0.0);
+        u_xlat22 = min(u_xlat22, 50.0);
+        u_xlat5.xyz = u_xlat7.xyz * u_xlat2.yyy + vec3(0.0125663709, 0.0125663709, 0.0125663709);
+        u_xlat6.xyz = (-vec3(u_xlat22)) * u_xlat5.xyz;
+        u_xlat6.xyz = u_xlat6.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat6.xyz = exp2(u_xlat6.xyz);
+        u_xlat22 = u_xlat1.z * u_xlat16.x;
+        u_xlat4.xyz = u_xlat3.xyz * u_xlat1.xxx + u_xlat4.xyz;
+        u_xlat1.x = dot(u_xlat4.xyz, u_xlat4.xyz);
+        u_xlat1.x = sqrt(u_xlat1.x);
+        u_xlat16.x = (-u_xlat1.x) + 1.0;
+        u_xlat16.x = u_xlat16.x * 230.831207;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat23 = dot(_WorldSpaceLightPos0.xyz, u_xlat4.xyz);
+        u_xlat23 = u_xlat23 / u_xlat1.x;
+        u_xlat24 = dot(u_xlat3.xyz, u_xlat4.xyz);
+        u_xlat1.x = u_xlat24 / u_xlat1.x;
+        u_xlat23 = (-u_xlat23) + 1.0;
+        u_xlat24 = u_xlat23 * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat23 * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat23 * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat23 * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat1.x = (-u_xlat1.x) + 1.0;
+        u_xlat24 = u_xlat1.x * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat1.x * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat1.x * u_xlat24 + 0.458999991;
+        u_xlat1.x = u_xlat1.x * u_xlat24 + -0.00286999997;
+        u_xlat1.x = u_xlat1.x * 1.44269502;
+        u_xlat1.x = exp2(u_xlat1.x);
+        u_xlat1.x = u_xlat1.x * 0.25;
+        u_xlat1.x = u_xlat23 * 0.25 + (-u_xlat1.x);
+        u_xlat1.x = u_xlat16.x * u_xlat1.x + u_xlat1.y;
+        u_xlat1.x = max(u_xlat1.x, 0.0);
+        u_xlat1.x = min(u_xlat1.x, 50.0);
+        u_xlat4.xyz = u_xlat5.xyz * (-u_xlat1.xxx);
+        u_xlat4.xyz = u_xlat4.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat4.xyz = exp2(u_xlat4.xyz);
+        u_xlat1.x = u_xlat1.z * u_xlat16.x;
+        u_xlat1.xyz = u_xlat1.xxx * u_xlat4.xyz;
+        u_xlat1.xyz = u_xlat6.xyz * vec3(u_xlat22) + u_xlat1.xyz;
+        u_xlat4.xyz = u_xlat7.xyz * u_xlat2.xxx;
+        u_xlat4.xyz = u_xlat1.xyz * u_xlat4.xyz;
+        u_xlat1.xyz = u_xlat1.xyz * vec3(0.0199999996, 0.0199999996, 0.0199999996);
+    } else {
+        u_xlat22 = min(u_xlat3.y, -0.00100000005);
+        u_xlat22 = -9.99999975e-05 / u_xlat22;
+        u_xlat5.xyz = vec3(u_xlat22) * u_xlat3.xyz + vec3(0.0, 1.00010002, 0.0);
+        u_xlat16.x = dot((-u_xlat3.xyz), u_xlat5.xyz);
+        u_xlat16.y = dot(_WorldSpaceLightPos0.xyz, u_xlat5.xyz);
+        u_xlat16.xy = (-u_xlat16.xy) + vec2(1.0, 1.0);
+        u_xlat24 = u_xlat16.x * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat16.x * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat16.x * u_xlat24 + 0.458999991;
+        u_xlat16.x = u_xlat16.x * u_xlat24 + -0.00286999997;
+        u_xlat16.x = u_xlat16.x * 1.44269502;
+        u_xlat16.x = exp2(u_xlat16.x);
+        u_xlat24 = u_xlat16.y * 5.25 + -6.80000019;
+        u_xlat24 = u_xlat16.y * u_xlat24 + 3.82999992;
+        u_xlat24 = u_xlat16.y * u_xlat24 + 0.458999991;
+        u_xlat23 = u_xlat16.y * u_xlat24 + -0.00286999997;
+        u_xlat23 = u_xlat23 * 1.44269502;
+        u_xlat23 = exp2(u_xlat23);
+        u_xlat5.xy = u_xlat16.xx * vec2(0.25, 0.249900013);
+        u_xlat16.x = u_xlat23 * 0.25 + u_xlat5.x;
+        u_xlat5.xz = vec2(u_xlat22) * vec2(0.5, 20.0);
+        u_xlat6.xyz = u_xlat3.xyz * u_xlat5.xxx;
+        u_xlat6.xyz = u_xlat6.xyz * vec3(0.5, 0.5, 0.5) + vec3(0.0, 1.00010002, 0.0);
+        u_xlat22 = dot(u_xlat6.xyz, u_xlat6.xyz);
+        u_xlat22 = sqrt(u_xlat22);
+        u_xlat22 = (-u_xlat22) + 1.0;
+        u_xlat22 = u_xlat22 * 230.831207;
+        u_xlat22 = exp2(u_xlat22);
+        u_xlat16.x = u_xlat22 * u_xlat16.x + (-u_xlat5.y);
+        u_xlat16.x = max(u_xlat16.x, 0.0);
+        u_xlat16.x = min(u_xlat16.x, 50.0);
+        u_xlat5.xyw = u_xlat7.xyz * u_xlat2.yyy + vec3(0.0125663709, 0.0125663709, 0.0125663709);
+        u_xlat9.xyz = (-u_xlat16.xxx) * u_xlat5.xyw;
+        u_xlat9.xyz = u_xlat9.xyz * vec3(1.44269502, 1.44269502, 1.44269502);
+        u_xlat1.xyz = exp2(u_xlat9.xyz);
+        u_xlat22 = u_xlat5.z * u_xlat22;
+        u_xlat9.xyz = vec3(u_xlat22) * u_xlat1.xyz;
+        u_xlat7.xyz = u_xlat7.xyz * u_xlat2.xxx + vec3(0.0199999996, 0.0199999996, 0.0199999996);
+        u_xlat4.xyz = u_xlat7.xyz * u_xlat9.xyz;
+    }
+    u_xlat7.xyz = vec3(_GroundColor.x, _GroundColor.y, _GroundColor.z) * u_xlat1.xyz + u_xlat4.xyz;
+    vs_TEXCOORD1.xyz = u_xlat7.xyz * vec3(_Exposure);
+    u_xlat7.x = dot(_WorldSpaceLightPos0.xyz, (-u_xlat3.xyz));
+    u_xlat7.x = u_xlat7.x * u_xlat7.x;
+    u_xlat7.x = u_xlat7.x * 0.75 + 0.75;
+    u_xlat7.xyz = u_xlat7.xxx * u_xlat4.xyz;
+    vs_TEXCOORD2.xyz = u_xlat7.xyz * vec3(_Exposure);
+    u_xlat7.x = dot(_LightColor0.xyz, _LightColor0.xyz);
+    u_xlat7.x = sqrt(u_xlat7.x);
+    u_xlat7.x = max(u_xlat7.x, 0.25);
+    u_xlat7.x = min(u_xlat7.x, 1.0);
+    u_xlat1.xyz = u_xlat1.xyz * vec3(8000.0, 8000.0, 8000.0);
+    u_xlat1.xyz = clamp(u_xlat1.xyz, 0.0, 1.0);
+    u_xlat1.xyz = u_xlat1.xyz * _LightColor0.xyz;
+    u_xlat1.xyz = u_xlat1.xyz * vec3(27.0, 27.0, 27.0);
+    vs_TEXCOORD3.xyz = u_xlat1.xyz / u_xlat7.xxx;
+    vs_TEXCOORD0.xyz = (-u_xlat3.xyz);
+    vs_BLENDINDICES0 = u_xlatu0;
+    gl_Layer = int(u_xlatu0);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Skybox/Procedural:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Skybox/Procedural' failed.
+-------- Shader Legacy Shaders/Particles/Alpha Blended Premultiply compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+uniform 	vec4 _MainTex_ST;
+UNITY_BINDING(0) uniform UnityStereoGlobals {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoWorldToCamera[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraToWorld[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+in  vec4 in_POSITION0;
+in  vec4 in_COLOR0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_COLOR0;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+vec4 u_xlat0;
+uint u_xlatu1;
+vec4 u_xlat2;
+int u_xlati4;
+void main()
+{
+    u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;
+    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;
+    u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];
+    u_xlatu1 = uint(gl_InstanceID) & 1u;
+    u_xlati4 = int(u_xlatu1) << 2;
+    u_xlat2 = u_xlat0.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati4] * u_xlat0.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 2)] * u_xlat0.zzzz + u_xlat2;
+    gl_Position = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati4 + 3)] * u_xlat0.wwww + u_xlat2;
+    vs_COLOR0 = in_COLOR0;
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;
+    vs_BLENDINDICES0 = u_xlatu1;
+    gl_Layer = int(u_xlatu1);
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Legacy Shaders/Particles/Alpha Blended Premultiply:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Legacy Shaders/Particles/Alpha Blended Premultiply' failed.
+-------- Shader Hidden/Universal Render Pipeline/Blit compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _ScaleBias;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+int u_xlati0;
+uvec2 u_xlatu0;
+vec3 u_xlat1;
+int u_xlati4;
+void main()
+{
+    u_xlati0 = int(uint(gl_VertexID) & 1u);
+    u_xlatu0.y = uint(gl_VertexID) >> 1u;
+    u_xlati4 = (-u_xlati0) + (-int(u_xlatu0.y));
+    u_xlati0 = u_xlati0 + int(u_xlatu0.y);
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.xz = vec2(u_xlatu0.yx);
+    vs_TEXCOORD0.xy = u_xlat1.xz * _ScaleBias.xy + _ScaleBias.zw;
+    u_xlati0 = u_xlati4 + 1;
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.y = float(u_xlatu0.x);
+    gl_Position.xy = u_xlat1.xy * vec2(2.0, -2.0) + vec2(-1.0, 1.0);
+    gl_Position.zw = vec2(-1.0, 1.0);
+    u_xlatu0.x = uint(gl_InstanceID) & 1u;
+    gl_Layer = int(u_xlatu0.x);
+    vs_BLENDINDICES0 = u_xlatu0.x;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/Blit:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/Blit' failed.
+-------- Shader Hidden/Universal Render Pipeline/CopyDepth compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _ScaleBiasRt;
+out vec2 vs_TEXCOORD0;
+flat out uint vs_BLENDINDICES0;
+vec2 u_xlat0;
+int u_xlati0;
+uvec2 u_xlatu0;
+vec3 u_xlat1;
+int u_xlati4;
+void main()
+{
+    u_xlati0 = int(uint(gl_VertexID) & 1u);
+    u_xlatu0.y = uint(gl_VertexID) >> 1u;
+    u_xlati4 = (-u_xlati0) + (-int(u_xlatu0.y));
+    u_xlati0 = u_xlati0 + int(u_xlatu0.y);
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.xz = vec2(u_xlatu0.yx);
+    vs_TEXCOORD0.xy = u_xlat1.xz;
+    u_xlati0 = u_xlati4 + 1;
+    u_xlatu0.x = uint(u_xlati0) & 1u;
+    u_xlat1.y = float(u_xlatu0.x);
+    u_xlat0.xy = u_xlat1.xy * vec2(2.0, -2.0) + vec2(-1.0, 1.0);
+    gl_Position.y = u_xlat0.y * _ScaleBiasRt.x;
+    gl_Position.x = u_xlat0.x;
+    gl_Position.zw = vec2(-1.0, 1.0);
+    u_xlatu0.x = uint(gl_InstanceID) & 1u;
+    gl_Layer = int(u_xlatu0.x);
+    vs_BLENDINDICES0 = u_xlatu0.x;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/Universal Render Pipeline/CopyDepth:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Hidden/Universal Render Pipeline/CopyDepth' failed.
+-------- Shader Universal Render Pipeline/Terrain/Lit compilation failed
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+#extension GL_AMD_vertex_shader_layer : require
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 0
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 unity_OrthoParams;
+UNITY_BINDING(0) uniform UnityPerDraw {
+	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
+	vec4 hlslcc_mtx4x4unity_WorldToObject[4];
+	vec4 unity_LODFade;
+	vec4 unity_WorldTransformParams;
+	vec4 unity_LightData;
+	vec4 unity_LightIndices[2];
+	vec4 unity_ProbesOcclusion;
+	vec4 unity_SpecCube0_HDR;
+	vec4 unity_LightmapST;
+	vec4 unity_DynamicLightmapST;
+	vec4 unity_SHAr;
+	vec4 unity_SHAg;
+	vec4 unity_SHAb;
+	vec4 unity_SHBr;
+	vec4 unity_SHBg;
+	vec4 unity_SHBb;
+	vec4 unity_SHC;
+};
+UNITY_BINDING(1) uniform UnityStereoViewBuffer {
+	vec4 hlslcc_mtx4x4unity_StereoMatrixP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvV[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoMatrixInvVP[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraProjection[8];
+	vec4 hlslcc_mtx4x4unity_StereoCameraInvProjection[8];
+	vec3 unity_StereoWorldSpaceCameraPos[2];
+	vec4 unity_StereoScaleOffset[2];
+};
+UNITY_BINDING(2) uniform _Terrain {
+	float _NormalScale0;
+	float _NormalScale1;
+	float _NormalScale2;
+	float _NormalScale3;
+	float _Metallic0;
+	float _Metallic1;
+	float _Metallic2;
+	float _Metallic3;
+	float _Smoothness0;
+	float _Smoothness1;
+	float _Smoothness2;
+	float _Smoothness3;
+	vec4 _DiffuseRemapScale0;
+	vec4 _DiffuseRemapScale1;
+	vec4 _DiffuseRemapScale2;
+	vec4 _DiffuseRemapScale3;
+	vec4 _MaskMapRemapOffset0;
+	vec4 _MaskMapRemapOffset1;
+	vec4 _MaskMapRemapOffset2;
+	vec4 _MaskMapRemapOffset3;
+	vec4 _MaskMapRemapScale0;
+	vec4 _MaskMapRemapScale1;
+	vec4 _MaskMapRemapScale2;
+	vec4 _MaskMapRemapScale3;
+	vec4 _Control_ST;
+	vec4 _Control_TexelSize;
+	float _DiffuseHasAlpha0;
+	float _DiffuseHasAlpha1;
+	float _DiffuseHasAlpha2;
+	float _DiffuseHasAlpha3;
+	float _LayerHasMask0;
+	float _LayerHasMask1;
+	float _LayerHasMask2;
+	float _LayerHasMask3;
+	vec4 _Splat0_ST;
+	vec4 _Splat1_ST;
+	vec4 _Splat2_ST;
+	vec4 _Splat3_ST;
+	float _HeightTransition;
+	float _NumLayersCount;
+};
+in  vec4 in_POSITION0;
+in  vec3 in_NORMAL0;
+in  vec2 in_TEXCOORD0;
+out vec4 vs_TEXCOORD0;
+out vec4 vs_TEXCOORD1;
+out vec4 vs_TEXCOORD2;
+out vec3 vs_TEXCOORD3;
+out vec3 vs_TEXCOORD4;
+out vec3 vs_TEXCOORD5;
+out vec4 vs_TEXCOORD6;
+out vec3 vs_TEXCOORD7;
+flat out uint vs_BLENDINDICES0;
+uint u_xlatu0;
+vec4 u_xlat1;
+int u_xlati1;
+vec4 u_xlat2;
+vec4 u_xlat3;
+vec3 u_xlat4;
+vec3 u_xlat5;
+bool u_xlatb6;
+float u_xlat16;
+void main()
+{
+    u_xlatu0 = uint(gl_InstanceID) & 1u;
+    u_xlat5.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat5.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_POSITION0.xxx + u_xlat5.xyz;
+    u_xlat5.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_POSITION0.zzz + u_xlat5.xyz;
+    u_xlat5.xyz = u_xlat5.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    u_xlati1 = int(u_xlatu0) << 2;
+    u_xlat2 = u_xlat5.yyyy * hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 1)];
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[u_xlati1] * u_xlat5.xxxx + u_xlat2;
+    u_xlat2 = hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 2)] * u_xlat5.zzzz + u_xlat2;
+    gl_Position = u_xlat2 + hlslcc_mtx4x4unity_StereoMatrixVP[(u_xlati1 + 3)];
+    vs_TEXCOORD0.zw = in_TEXCOORD0.xy * unity_LightmapST.xy + unity_LightmapST.zw;
+    vs_TEXCOORD1.xy = in_TEXCOORD0.xy * _Splat0_ST.xy + _Splat0_ST.zw;
+    vs_TEXCOORD1.zw = in_TEXCOORD0.xy * _Splat1_ST.xy + _Splat1_ST.zw;
+    vs_TEXCOORD2.xy = in_TEXCOORD0.xy * _Splat2_ST.xy + _Splat2_ST.zw;
+    vs_TEXCOORD2.zw = in_TEXCOORD0.xy * _Splat3_ST.xy + _Splat3_ST.zw;
+    u_xlatb6 = unity_OrthoParams.w==0.0;
+    if(u_xlatb6){
+        vs_TEXCOORD4.xyz = (-u_xlat5.xyz) + unity_StereoWorldSpaceCameraPos[int(u_xlatu0)].xyz;
+    } else {
+        vs_TEXCOORD4.x = hlslcc_mtx4x4unity_StereoMatrixV[u_xlati1].z;
+        vs_TEXCOORD4.y = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 1)].z;
+        vs_TEXCOORD4.z = hlslcc_mtx4x4unity_StereoMatrixV[(u_xlati1 + 2)].z;
+    }
+    u_xlat1.xyz = in_NORMAL0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat1.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_NORMAL0.xxx + u_xlat1.xyz;
+    u_xlat1.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_NORMAL0.zzz + u_xlat1.xyz;
+    u_xlat16 = dot(u_xlat1.xyz, u_xlat1.xyz);
+    u_xlat16 = max(u_xlat16, 1.17549435e-38);
+    u_xlat16 = inversesqrt(u_xlat16);
+    u_xlat1.xyz = vec3(u_xlat16) * u_xlat1.xyz;
+    u_xlat1.w = 1.0;
+    u_xlat2.x = dot(unity_SHAr, u_xlat1);
+    u_xlat2.y = dot(unity_SHAg, u_xlat1);
+    u_xlat2.z = dot(unity_SHAb, u_xlat1);
+    u_xlat3 = u_xlat1.yzzx * u_xlat1.xyzz;
+    u_xlat4.x = dot(unity_SHBr, u_xlat3);
+    u_xlat4.y = dot(unity_SHBg, u_xlat3);
+    u_xlat4.z = dot(unity_SHBb, u_xlat3);
+    u_xlat16 = u_xlat1.y * u_xlat1.y;
+    u_xlat16 = u_xlat1.x * u_xlat1.x + (-u_xlat16);
+    u_xlat3.xyz = unity_SHC.xyz * vec3(u_xlat16) + u_xlat4.xyz;
+    u_xlat2.xyz = u_xlat2.xyz + u_xlat3.xyz;
+    vs_TEXCOORD5.xyz = max(u_xlat2.xyz, vec3(0.0, 0.0, 0.0));
+    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;
+    vs_TEXCOORD6 = vec4(0.0, 0.0, 0.0, 0.0);
+    vs_TEXCOORD3.xyz = u_xlat1.xyz;
+    vs_TEXCOORD7.xyz = u_xlat5.xyz;
+    gl_Layer = int(u_xlatu0);
+    vs_BLENDINDICES0 = u_xlatu0;
+    return;
+}
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Universal Render Pipeline/Terrain/Lit:
+ERROR: 0:6: '' :  extension 'GL_AMD_vertex_shader_layer' is not supported
+Note: Creation of internal variant of shader 'Universal Render Pipeline/Terrain/Lit' failed.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.70 ms.
+Unloading 3928 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 316.7 MB.
+System memory in use after: 316.7 MB.
 
-Unloading 580 unused Assets to reduce memory usage. Loaded Objects now: 5456.
-Total: 7.161103 ms (FindLiveObjects: 0.657821 ms CreateObjectMapping: 0.350029 ms MarkObjects: 5.681648 ms  DeleteObjects: 0.470129 ms)
+Unloading 171 unused Assets to reduce memory usage. Loaded Objects now: 4433.
+Total: 6.232749 ms (FindLiveObjects: 0.445300 ms CreateObjectMapping: 0.242293 ms MarkObjects: 5.278019 ms  DeleteObjects: 0.265694 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1413,6 +1837,168 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Oculus/OculusProjectConfig.asset
-  artifactKey: Guid(7339bb75476ad0847b282a09f6d381d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(7339bb75476ad0847b282a09f6d381d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbe15539fcb1657c29ba42e5c32c871') in 0.075377 seconds 
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a820ec685b754308b56939ceaab582eb') in 0.619449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat
+  artifactKey: Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat using Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00ff9b2ce8c114e7071bec3d54fc1ae') in 0.135173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat
+  artifactKey: Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat using Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa849d294d50d4ea0528acace5e38172') in 0.064660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
+  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bed73bae177318fc5329212295978d9') in 0.032649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat
+  artifactKey: Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat using Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2007de9bcc6d184d3300554887b860c') in 0.080609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
+  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce41ded7874bb6cc2915c8eb0679be29') in 0.074419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfddc3dcca0aaf95da6cdcca2c66f7a2') in 0.033016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9a6ece2edee120ce83257ba7a6c6ec') in 0.039122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
+  artifactKey: Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat using Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8172183bb1d0616e60526798d934679a') in 0.029891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat
+  artifactKey: Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat using Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3fe1d96e852b216ac98c5491c9a9fa') in 0.020840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99e081bd82f1788b2e784a833a719ef') in 0.029489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
+  artifactKey: Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat using Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed54afb45315d4e96568ffed0a0f03d6') in 0.054712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat
+  artifactKey: Guid(bbb235fff4f48426b863b36058ab66d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat using Guid(bbb235fff4f48426b863b36058ab66d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bcb3b5ed953e1f7a6c8bc810e5c063') in 0.036398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/NoDraw.mat
+  artifactKey: Guid(8cb4d6fee77fd4ee6895f08b240d625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/NoDraw.mat using Guid(8cb4d6fee77fd4ee6895f08b240d625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebff928b27b58188dcf6c80cc010256') in 0.037493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cce77865135296109fd90b7e59553f') in 0.038416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Packages/com.unity.probuilder/Content/Material/Checker.mat
+  artifactKey: Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Material/Checker.mat using Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2afc8d448215d2726866cafae14bc6') in 0.022314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
+  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0d9bf2378acecbf737e43f03e6aaf2') in 0.034290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat
+  artifactKey: Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat using Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af09120c17689ee75b425c416d498d88') in 0.023489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca37fc858c41fb9932a76f8b8616038') in 0.044095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
+  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946387efff069fb2684f1ef3f6e2eb25') in 0.033913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat
+  artifactKey: Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat using Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fb04d82286d2892042e71a78150316') in 0.046271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePickerHDRP.mat
+  artifactKey: Guid(a53ef0dd76f2fe74eb5f43267d7c0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePickerHDRP.mat using Guid(a53ef0dd76f2fe74eb5f43267d7c0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98930f9bce4f492b17a079160cdcf4a5') in 0.018666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat
+  artifactKey: Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat using Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448cbfada4176e4e3077946aed6ecdcc') in 0.061211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef10a65258aa3bfa646b1615545c7bd') in 0.036645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat
+  artifactKey: Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat using Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9232d0a9e44768c6d7d4a33637c2d2a') in 0.019115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf
+  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5fba93d08fd1a698a10b4dbb474fd9') in 0.032675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac634b9f23b442b3721d3bd680fbf397') in 0.031736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952d7c8ee16fbc0d2aa391c545c8e8f4') in 0.036580 seconds 

@@ -56,13 +56,13 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Oculus/VR/Scripts/Editor/OVRProfilerDeprecated.cs" />
-    <Compile Include="Assets/Oculus/VR/Scripts/Editor/OculusXRFeatureEnabler.cs" />
-    <Compile Include="Assets/Oculus/VR/Scripts/Editor/OVRCustomSkeletonEditor.cs" />
     <Compile Include="Assets/Oculus/VR/Scripts/Editor/OVRProjectConfigEditor.cs" />
     <Compile Include="Assets/Oculus/VR/Scripts/Editor/OVREditorUtil.cs" />
     <Compile Include="Assets/Oculus/VR/Scripts/Editor/OVRPassthroughLayerEditor.cs" />
     <Compile Include="Assets/Oculus/VR/Scripts/Editor/OVROverlayEditor.cs" />
+    <Compile Include="Assets/Oculus/VR/Scripts/Editor/OVRProfilerDeprecated.cs" />
+    <Compile Include="Assets/Oculus/VR/Scripts/Editor/OculusXRFeatureEnabler.cs" />
+    <Compile Include="Assets/Oculus/VR/Scripts/Editor/OVRCustomSkeletonEditor.cs" />
     <Compile Include="Assets/Oculus/VR/Scripts/Editor/OVRManagerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -311,6 +311,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -319,9 +322,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
       <HintPath>Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
@@ -677,17 +677,17 @@
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

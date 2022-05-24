@@ -57,24 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/WitDataCreation.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitPropertyDrawer.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/CallbackHandlers/SimpleStringEntityHandlerEditor.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/CallbackHandlers/SimpleIntentHandlerEditor.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitTraitPropertyDrawer.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitEndpointConfigDrawer.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/WitStyles.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/BaseWitWindow.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Utility/WitUnderstandingViewer.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitIntentPropertyDrawer.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/WitScriptableWizard.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Lib/Mic/MicEditor.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/WitWindowUtility.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitWindow.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Inspectors/WitInspector.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitTraitValuePropertyDrawer.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitWelcomeWizard.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitEntityPropertyDrawer.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitSimplePropertyDrawer.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/IApplicationDetailProvider.cs" />
@@ -82,9 +70,21 @@
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitEntityRolePropertyDrawer.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/WitConfigurationWindow.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/CallbackHandlers/ValuePathMatcherPropertyDrawer.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitApplicationPropertyDrawer.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitPropertyDrawer.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/CallbackHandlers/SimpleIntentHandlerEditor.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitTraitPropertyDrawer.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/WitStyles.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/BaseWitWindow.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Utility/WitUnderstandingViewer.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitIntentPropertyDrawer.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/WitScriptableWizard.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Lib/Mic/MicEditor.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitWindow.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitTraitValuePropertyDrawer.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/WitConfigurationEditorUI.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/WitEditorUI.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Windows/PropertyDrawers/WitApplicationPropertyDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Facebook.Wit.Editor.asmdef" />
@@ -330,6 +330,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -338,9 +341,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
       <HintPath>Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
@@ -696,17 +696,17 @@
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

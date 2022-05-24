@@ -56,52 +56,52 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntity.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntityRole.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Utilities/FloatToStringEvent.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Intents/WitIntent.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitEndpointConfig.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/WitRequest.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Traits/WitTrait.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitDynamicEntities.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/WitValue.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IDynamicEntitiesProvider.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitRuntimeConfiguration.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/IRequest.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/WitResponse.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitApplication.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/WitStringValue.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitConfigurationData.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/WitRequestCreatedEvent.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/WitResponseHandler.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/WitAuthUtility.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ITranscriptionProvider.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/WitErrorEvent.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/VoiceEvents.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/RingBuffer.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/WitResultUtilities.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/WitRequestFactory.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitDynamicEntity.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioInputSource.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitSimpleDynamicEntity.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitConfiguration.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/WitResponseEvent.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntity.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntityRole.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitEndpointConfig.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitDynamicEntities.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitRuntimeConfiguration.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/WitResponse.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/WitStringValue.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/WitResponseHandler.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/WitIntValue.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Traits/WitTraitValue.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/WitUtteranceMatcher.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ITranscriptionProvider.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/WitFloatValue.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Wit.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/VoiceService.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Keywords/WitKeyword.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/WrapHttpWebRequest.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/WitErrorEvent.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/WitMicLevelChangedEvent.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/VoiceEvents.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/RingBuffer.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/SimpleIntentHandler.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/WitByteDataEvent.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/WitResponseMatcher.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/WitResultUtilities.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitDynamicEntity.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/WitRequestFactory.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioInputSource.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Utilities/CoroutineUtility.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitSimpleDynamicEntity.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitConfiguration.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/SimpleStringEntityHandler.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitRequestOptions.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/WitResponseEvent.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/AudioEncoding.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/WitTranscriptionEvent.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/CustomTranscriptionProvider.cs" />
@@ -341,6 +341,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -349,9 +352,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
       <HintPath>Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
@@ -701,11 +701,11 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

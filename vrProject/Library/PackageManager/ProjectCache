@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637878674150000000
-    m_Hash: 1665825211
+      ticks: 637888092130000000
+    m_Hash: 453418186
   m_LockFileStatus:
     m_FilePath: /Users/admin/Desktop/vrProject/VR/vrProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637878674150000000
-    m_Hash: 3989526678
+      ticks: 637888092130000000
+    m_Hash: 1273201262
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -1198,12 +1198,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.xr.interaction.toolkit@2.0.1
+    - packageId: com.unity.xr.interaction.toolkit@2.0.2
       testable: 0
       isDirectDependency: 1
-      version: 2.0.1
+      version: 2.0.2
       source: 1
-      resolvedPath: /Users/admin/Desktop/vrProject/VR/vrProject/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1
+      resolvedPath: /Users/admin/Desktop/vrProject/VR/vrProject/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.2
       assetPath: Packages/com.unity.xr.interaction.toolkit
       name: com.unity.xr.interaction.toolkit
       displayName: XR Interaction Toolkit
@@ -1243,6 +1243,7 @@ m_PackageAssets:
         - 2.0.0
         - 2.0.1
         - 2.0.2
+        - 2.1.0-pre.1
         compatible:
         - 0.0.6-preview
         - 0.9.0-preview
@@ -1264,6 +1265,7 @@ m_PackageAssets:
         - 2.0.0
         - 2.0.1
         - 2.0.2
+        - 2.1.0-pre.1
         verified: 
       dependencies:
       - name: com.unity.inputsystem
@@ -1326,13 +1328,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637824260500000000
+      datePublishedTicks: 637874566830000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
-        revision: 13fd4c583e33bc55a2002a74574fc713d069bb0c
+        revision: de6c9c113846c3ca4449d0285a4683bb9c87855e
         path: 
     - packageId: com.unity.xr.management@4.2.1
       testable: 0

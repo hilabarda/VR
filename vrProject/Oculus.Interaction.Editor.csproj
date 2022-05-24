@@ -59,36 +59,36 @@
     <Compile Include="Assets/Oculus/Interaction/Editor/Utils/HandAnimatorWizard.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/HandPosing/Visuals/HandPuppetEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/PoseDetection/JointVelocityFeatureConfigEditor.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/HandPosing/SnapSurfaces/BoxEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/Selection/Controllers/ControllerOffsetEditor.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/Poke/CircleProximityFieldEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/Poke/CylinderProximityFieldEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/EditorBase.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/PoseDetection/TransformConfigEditor.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/UnityCanvas/CanvasRenderTextureEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/Utils/HandGrabPoseWizard.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/PoseDetection/FingerFeatureListPropertyDrawer.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/HandPosing/HandGrab/HandPoseEditor.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/Poke/PokeInteractableEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/PoseDetection/TransformFeatureStateThresholdsEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/Utils/OptionalDrawer.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/OVRIntegration/InputDataProviderUpdateTriggerOVREditor.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/HandPosing/SnapSurfaces/CylinderEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/PoseDetection/FeatureStateThresholdsEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/PoseDetection/JointRotationFeatureConfigEditor.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/Surfaces/PointablePlaneEditor.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/Utils/EditorConstants.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/HandPosing/HandGrab/HandGrabPointEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/Utils/ConditionalHideDrawer.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/PoseDetection/FeatureListPropertyDrawer.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/Grab/GrabbingRuleEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/Poke/BoxProximityFieldEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/Hands/HandVisualEditor.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Editor/Surfaces/PointableCylinderEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/PoseDetection/FingerFeatureStateThresholdsEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/HandPosing/HandGrab/HandGrabInteractableEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/Selection/Hands/ConicalFrustumEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/Selection/Hands/HandWristOffsetEditor.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/HandPosing/SnapSurfaces/BoxEditor.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/Poke/CircleProximityFieldEditor.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/UnityCanvas/CanvasRenderTextureEditor.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/PoseDetection/FingerFeatureListPropertyDrawer.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/HandPosing/HandGrab/HandPoseEditor.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/Poke/PokeInteractableEditor.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/HandPosing/SnapSurfaces/CylinderEditor.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/Surfaces/PointablePlaneEditor.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/Utils/EditorConstants.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/PoseDetection/FeatureListPropertyDrawer.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Editor/Surfaces/PointableCylinderEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/UnityCanvas/CanvasCylinderEditor.cs" />
     <Compile Include="Assets/Oculus/Interaction/Editor/HandPosing/SnapSurfaces/SphereEditor.cs" />
   </ItemGroup>
@@ -336,6 +336,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -344,9 +347,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
       <HintPath>Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
@@ -702,17 +702,17 @@
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
